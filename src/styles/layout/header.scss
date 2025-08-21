@@ -1,12 +1,21 @@
-header {
-  max-width: 1240px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  ul {
-    list-style: none;
+@import "../base/variables.scss";
+#floating-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  header {
+    max-width: 1440px;
+    margin: auto;
+    padding: $space-xs;
     display: flex;
-    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 60px;
+    }
   }
 }

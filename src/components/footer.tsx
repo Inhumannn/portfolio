@@ -4,11 +4,14 @@ import "../styles/layout/footer.scss";
 
 export function Footer() {
   return (
-    <footer>
-      <Link to="">&copy; 2025 PENA Thomas. All rights reserved.</Link>
-      <Link to="">
-        <ArrowUp />
-      </Link>
-    </footer>
+    <>
+      <hr />
+      <footer>
+        <Link to="">&copy; 2025 Inhuman. All rights reserved.</Link>
+        <a href="#header-ancre">
+          <ArrowUp />
+        </a>
+      </footer>
+    </>
   );
 }

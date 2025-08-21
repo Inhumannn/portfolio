@@ -1,0 +1,80 @@
+@import "../base/variables.scss";
+
+main {
+  .about {
+    max-width: 1240px;
+    margin: auto;
+    padding: $space-lg;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    > div:nth-child(1) {
+      margin-right: 20%;
+      h1 {
+        line-height: 1;
+        margin-bottom: 12px;
+        span {
+          display: block;
+          color: #9ca3af;
+        }
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      div {
+        display: flex;
+        gap: 20px;
+      }
+    }
+  }
+  .project {
+    max-width: 1240px;
+    margin: auto;
+    padding: $space-lg;
+    > div:nth-child(1) {
+      text-align: center;
+      h2 {
+        margin-bottom: 14px;
+      }
+    }
+    > div:nth-child(2) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px;
+      align-items: center;
+      padding: $space-md;
+    }
+    > div:nth-child(3) {
+      text-align: center;
+    }
+  }
+  .skill {
+    max-width: 1240px;
+    margin: auto;
+    padding: $space-lg;
+    > div:nth-child(1) {
+      text-align: center;
+      h2 {
+        margin-bottom: 14px;
+      }
+    }
+    > div:nth-child(2) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      padding: $space-md;
+      > article {
+        h3 {
+          text-align: center;
+        }
+        > div {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 25px;
+          justify-items: center;
+        }
+      }
+    }
+  }
+}
+

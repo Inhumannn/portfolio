@@ -1,0 +1,29 @@
+#root > main > section.project > div:nth-child(2) {
+  article {
+    border: 1px solid #403e3e;
+    border-radius: 4px;
+    background-color: #1a1a1a;
+    > img {
+      border-radius: 4px 4px 0 0;
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+      object-position: top;
+    }
+    > div {
+      padding: 17px;
+      p {
+        margin-bottom: 10px;
+      }
+      > div:nth-child(3) {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 12px;
+      }
+      > div:nth-child(4) {
+        display: flex;
+        gap: 8px;
+      }
+    }
+  }
+}

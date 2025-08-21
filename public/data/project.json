@@ -1,0 +1,23 @@
+[
+  {
+    "image": "/img/project1.jpg",
+    "title": "Project One",
+    "description": "A landing page built with HTML, CSS and JavaScript.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "link": "blabla"
+  },
+  {
+    "image": "/img/project2.jpg",
+    "link": "blabla",
+    "title": "Project Two",
+    "description": "A React app with TypeScript and Vite.",
+    "skills": ["React", "TypeScript", "Vite"]
+  },
+  {
+    "image": "/img/project3.jpg",
+    "link": "blabla",
+    "title": "Project Three",
+    "description": "A RESTful API built with Node.js and Express.",
+    "skills": ["Node.js", "Express", "MongoDB"]
+  }
+]
