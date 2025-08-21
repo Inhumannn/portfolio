@@ -50,20 +50,21 @@ export function Header() {
           <DropdownMenu>
             <DropdownMenuTrigger>Menu</DropdownMenuTrigger>
             <DropdownMenuContent>
-              <DropdownMenuItem>
-                <Link to="/about">About</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link to="/experience">Experience</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Link to="/project">Projects</Link>
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <HashLink smooth to="/#contact-ancre">
-                  Contacts
-                </HashLink>
-              </DropdownMenuItem>
+              <Link to="/">
+                <DropdownMenuItem>Home</DropdownMenuItem>
+              </Link>
+              <Link to="/about">
+                <DropdownMenuItem>About</DropdownMenuItem>
+              </Link>
+              <Link to="/experience">
+                <DropdownMenuItem>Experience</DropdownMenuItem>
+              </Link>
+              <Link to="/project">
+                <DropdownMenuItem>Projects</DropdownMenuItem>
+              </Link>
+              <HashLink smooth to="/#contact-ancre">
+                <DropdownMenuItem>Contacts</DropdownMenuItem>
+              </HashLink>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
