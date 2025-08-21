@@ -1,9 +1,13 @@
 import { CodeBlock } from "@/components/codeblock";
 import { CvButton } from "@/components/cv-button";
 import { Footer } from "@/components/footer";
+import { ContactForm } from "@/components/form";
 import { Header } from "@/components/header";
 import { ProjectsCards } from "@/components/projects-cards";
+import { SkillTech } from "@/components/skill&tech";
 import { Button } from "@/components/ui/button";
+import { Github, Linkedin, Mail, MapPin, Phone, School } from "lucide-react";
+import { Link } from "react-router-dom";
 import "../styles/pages/home.scss";
 
 export function Home() {
@@ -11,7 +15,7 @@ export function Home() {
     <>
       <div id="header-ancre"></div>
       <Header />
-      <main>
+      <main id="home">
         <section className="about">
           <div>
             <h1>
@@ -24,7 +28,9 @@ export function Home() {
               erchitectures.
             </p>
             <div>
-              <CvButton />
+              <Link to="/about">
+                <Button variant="secondary">About Me</Button>
+              </Link>
               <CvButton />
             </div>
           </div>
@@ -37,7 +43,7 @@ export function Home() {
             <h2>interesting project</h2>
             <p>
               A selection of my recent work showcasing different technologies
-              and approaches to solving complex problems.
+              and <br /> approaches to solving complex problems.
             </p>
           </div>
           <div>
@@ -51,58 +57,54 @@ export function Home() {
           <div>
             <h2>Skills & Technologies</h2>
             <p>
-              A comprehensive toolkit of modern technologies and frameworks I
-              use to build exceptional digital experiences.
+              A comprehensive toolkit of modern technologies and <br />{" "}
+              frameworks I use to build exceptional digital experiences.
             </p>
           </div>
           <div>
-            <article>
-              <h3>Front-end</h3>
-              <div>
-                <div>
-                  <p>logo</p>
-                  <p>skill 1</p>
-                </div>
-                <div>
-                  <p>logo</p>
-                  <p>skill 2</p>
-                </div>
-                <div>
-                  <p>logo</p>
-                  <p>skill 3</p>
-                </div>
-                <div>
-                  <p>logo</p>
-                  <p>skill 4</p>
-                </div>
-                <div>
-                  <p>logo</p>
-                  <p>skill 5</p>
-                </div>
-                <div>
-                  <p>logo</p>
-                  <p>skill 6</p>
-                </div>
-              </div>
-            </article>
-            <article>
-              <h3>Back-end</h3>
-            </article>
-            <article>
-              <h3>Tools & DevOps</h3>
-            </article>
+            <SkillTech />
           </div>
         </section>
-        <section className="contact">
+        <section className="contact" id="contact-ancre">
           <div>
-            <p>Let's Work Together</p>
+            <h2>Let's Work Together</h2>
             <p>
               Have a project in mind or want to discuss opportunities? I'd love
-              to hear from you. Let's create something amazing together.
+              to hear from you. <br /> Let's create something amazing together.
             </p>
           </div>
           <div>
-             {/* input, texterea, Label */}
+            <div className="info">
+              <div>
+                <Mail />
+                <div>
+                  <p>Email</p>
+                  <p>Inhuman@gmail.com</p>
+                </div>
+              </div>
+              <div>
+                <Phone />
+                <div>
+                  <p>Phone</p>
+                  <p>+1 (555) 123-4567</p>
+                </div>
+              </div>
+              <div>
+                <MapPin />
+                <div>
+                  <p>Location</p>
+                  <p>San Francisco, CA</p>
+                </div>
+              </div>
+              <div className="icone">
+                <School />
+                <Linkedin />
+                <Github />
+              </div>
+            </div>
+            <div className="form">
+              <ContactForm />
+            </div>
           </div>
         </section>
       </main>

@@ -1,0 +1,11 @@
+#experience {
+  padding-top: 60px;
+  min-height: calc(100vh - 60px - 50px);
+  section {
+    max-width: 1240px;
+    margin: auto;
+    > div:first-child {
+      text-align: center;
+    }
+  }
+}

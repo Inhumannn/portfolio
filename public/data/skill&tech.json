@@ -1,5 +1,24 @@
 [
   {
-    
+    "category": "Front-end",
+    "skills": [
+      { "icon": "FaHtml5", "name": "HTML" },
+      { "icon": "FaCss3Alt", "name": "CSS" },
+      { "icon": "FaJsSquare", "name": "JavaScript" }
+    ]
+  },
+  {
+    "category": "Back-end",
+    "skills": [
+      { "icon": "FaNodeJs", "name": "Node.js" },
+      { "icon": "FaDatabase", "name": "SQL" }
+    ]
+  },
+  {
+    "category": "Tools & DevOps",
+    "skills": [
+      { "icon": "FaGithub", "name": "GitHub" },
+      { "icon": "FaTerminal", "name": "Terminal" }
+    ]
   }
 ]

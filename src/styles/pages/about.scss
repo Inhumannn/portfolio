@@ -1,0 +1,45 @@
+#aboutme {
+  padding-top: 60px;
+  min-height: calc(100vh - 60px - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  section {
+    max-width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    > div:first-child {
+      order: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+    }
+    div:last-child {
+      padding-top: 140px;
+      order: 2;
+    }
+    img {
+      width: 100%;
+      filter: grayscale(100%);
+      border-radius: 8px;
+      object-fit: cover;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  #aboutme section {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  #aboutme section div:first-child {
+    padding-top: 0px;
+    order: 2;
+  }
+
+  #aboutme section div:last-child {
+    order: 1;
+  }
+}

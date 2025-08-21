@@ -1,6 +1,9 @@
 @import "../base/variables.scss";
 
-main {
+#menu {
+  display: none !important;
+}
+#home {
   .about {
     max-width: 1240px;
     margin: auto;
@@ -61,20 +64,92 @@ main {
     > div:nth-child(2) {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+      gap: 100px;
+      padding: $space-md;
+    }
+  }
+  .contact {
+    max-width: 1240px;
+    margin: auto;
+    padding: $space-lg;
+    > div:nth-child(1) {
+      text-align: center;
+      h2 {
+        margin-bottom: 14px;
+      }
+    }
+    > div:nth-child(2) {
+      display: grid;
       gap: 25px;
       padding: $space-md;
-      > article {
-        h3 {
-          text-align: center;
-        }
+      grid-template-columns: repeat(2, 1fr);
+      .info {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
         > div {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 25px;
-          justify-items: center;
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          > div {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+        .icone {
+          display: flex;
+          align-items: center;
+          gap: 75px;
         }
       }
     }
   }
 }
+@media screen and (max-width: 1024px) {
+  main .about > div:nth-child(1) h1 span {
+    display: inline;
+    padding-left: 10px;
+  }
+  .about {
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 50px;
+  }
+  main .project > div:nth-child(2) {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  #root > main > section.project > div:nth-child(2) article > img {
+    height: 320px;
+  }
+  main .skill > div:nth-child(2) {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .py-10 {
+    padding: 0;
+  }
+}
 
+@media screen and (max-width: 767px) {
+  main .about > div:nth-child(1) h1 span {
+    display: block;
+    padding-left: 0px;
+  }
+  #root > main > section.project > div:nth-child(2) article > img {
+    height: 120px;
+  }
+  #root > main > section.skill > div:nth-child(2) > article > div {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  main .contact > div:nth-child(2) {
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 75px;
+  }
+  nav {
+    display: none;
+  }
+  #menu {
+    display: block !important;
+  }
+  br {
+    display: none;
+  }
+}

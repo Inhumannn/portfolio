@@ -30,7 +30,16 @@ a {
   font-family: $font-main;
   font-size: $fz-p;
 }
+.json-key,
+.json-string,
+.json-number,
+.json-bracket {
+  font-size: $fz-p;
+}
 a {
   text-decoration: none;
   transition: all 0.2s ease-in-out;
+}
+section {
+  min-height: calc(100vh - 60px - 50px);
 }

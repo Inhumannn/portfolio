@@ -23,7 +23,7 @@ export function ProjectsCards() {
   }, []);
   return (
     <>
-      {projects.map((project, index) => (
+      {projects.slice(-3).map((project, index) => (
         <article key={index}>
           <img src={project.image} alt={project.title} />
           <div>
