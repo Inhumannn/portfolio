@@ -4,7 +4,7 @@ import { About } from "./pages/about";
 import { Contact } from "./pages/contact";
 import { Experience } from "./pages/experience";
 import { Home } from "./pages/home";
-import { NotFound } from "./pages/notfound";
+import { NotFound } from "./pages/404";
 import { Project } from "./pages/project";
 
 export function App() {

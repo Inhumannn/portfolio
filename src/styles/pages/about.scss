@@ -1,3 +1,4 @@
+@import "../base/variables.scss";
 #aboutme {
   padding-top: 60px;
   min-height: calc(100vh - 60px - 50px);
@@ -33,6 +34,7 @@
 @media screen and (max-width: 767px) {
   #aboutme section {
     grid-template-columns: repeat(1, 1fr) !important;
+    margin: $space-md;
   }
   #aboutme section div:first-child {
     padding-top: 0px;
@@ -41,5 +43,6 @@
 
   #aboutme section div:last-child {
     order: 1;
+    padding: 0px;
   }
 }
