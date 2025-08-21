@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import "../styles/pages/404.scss";
 
-export function NotFound() {
+export function Custom404() {
   return (
     <main id="notfound">
       <section>
