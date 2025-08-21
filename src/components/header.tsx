@@ -6,6 +6,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "../styles/layout/header.scss";
 import { ModeToggle } from "./mode-toggle";
 
@@ -35,7 +36,9 @@ export function Header() {
             </li>
             <li>
               <Button variant="link">
-                <a href="/#contact-ancre">Contacts</a>
+                <HashLink smooth to="/#contact-ancre">
+                  Contacts
+                </HashLink>
               </Button>
             </li>
             <li>
@@ -57,7 +60,9 @@ export function Header() {
                 <Link to="/project">Projects</Link>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <a href="/#contact-ancre">Contacts</a>
+                <HashLink smooth to="/#contact-ancre">
+                  Contacts
+                </HashLink>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
