@@ -72,11 +72,20 @@ export function Header() {
                 <DropdownMenuItem>{t("header.experience")}</DropdownMenuItem>
               </Link>
               <Link to="/project">
-                <DropdownMenuItem>{t("header.contacts")}</DropdownMenuItem>
+                <DropdownMenuItem>{t("header.projects")}</DropdownMenuItem>
               </Link>
               <HashLink smooth to="/#contact-ancre">
                 <DropdownMenuItem>{t("header.contacts")} </DropdownMenuItem>
-              </HashLink>
+              </HashLink>{" "}
+              <Button
+                variant="outline"
+                onClick={() =>
+                  changeLanguage(i18n.language === "fr" ? "en" : "fr")
+                }
+                className="px-[36px] py-0 bg-transparent border-none"
+              >
+                {i18n.language === "fr" ? "English" : "Français"}
+              </Button>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
