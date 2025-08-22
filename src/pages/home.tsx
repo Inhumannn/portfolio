@@ -78,34 +78,40 @@ export function Home() {
           <div>
             <div className="info">
               <div>
-                <Mail />
+                <div id="mail-icone">
+                  <Mail />
+                </div>
                 <div>
                   <p>Email</p>
-                  <a href="mailto:inhuman@gmail.com" target="_blank">
-                    Inhuman@gmail.com
+                  <a href="mailto:thomas.pnbm@gmail.com" target="_blank">
+                    thomas.pnbm@gmail.com
                   </a>
                 </div>
               </div>
               <div>
-                <Phone />
+                <div id="phone-icone">
+                  <Phone />
+                </div>
                 <div>
                   <p>Phone</p>
-                  <a href="tel:+1 (555) 123-4567" target="_blank">
-                    +1 (555) 123-4567
+                  <a href="tel:0743303698" target="_blank">
+                    +33 07 43 30 36 98
                   </a>
                 </div>
               </div>
               <div>
-                <MapPin />
+                <div id="mapin-icone">
+                  <MapPin />
+                </div>
                 <div>
                   <p>Location</p>
                   <address>
                     <address>
                       <a
-                        href="https://www.google.com/maps/place/83170+Brignoles/@43.4049461,6.0586847,15z/data=!4m6!3m5!1s0x12c941e57cd2f639:0x40819a5fd8fcf40!8m2!3d43.406204!4d6.0592489!16s%2Fg%2F11bc6bnnbq?hl=fr&entry=ttu&g_ep=EgoyMDI1MDMyNC4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"
+                        href="https://www.google.com/maps/place/Pertuis/@43.6931996,5.4932648,13z/data=!3m1!4b1!4m6!3m5!1s0x12ca271eb66c515d:0xe5bb238e7a74e150!8m2!3d43.694275!4d5.501843!16zL20vMDZoMTBx?hl=fr&entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"
                         target="_blank"
                       >
-                        San Francisco, CA
+                        Pertuis, 84120
                       </a>
                     </address>
                   </address>

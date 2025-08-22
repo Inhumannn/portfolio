@@ -8,7 +8,9 @@ export function Footer() {
     <>
       <hr />
       <footer>
-        <Link to="">&copy; 2025 Inhuman. All rights reserved.</Link>
+        <Link to="">
+          &copy; 2025 Thomas PENA--BERMOND. All rights reserved.
+        </Link>
         <HashLink smooth to="#header-ancre">
           <ArrowUp />
         </HashLink>

@@ -6,6 +6,7 @@ import "../styles/pages/about.scss";
 export function About() {
   return (
     <>
+      <div id="header-ancre"></div>
       <Header />
       <main id="aboutme">
         <section>
@@ -32,9 +33,16 @@ export function About() {
               défis pour m'améliorer !
             </p>
             <div className="icone">
-              <School />
-              <Linkedin />
-              <Github />
+              <a href="https://laplateforme.io/prf-var-devweb/">
+                <School />
+              </a>
+              <a href="https://www.linkedin.com/in/thomas-pena-bermond/">
+                <Linkedin />
+              </a>
+
+              <a href="https://github.com/Inhumannn">
+                <Github />
+              </a>
             </div>
           </div>
           <div>

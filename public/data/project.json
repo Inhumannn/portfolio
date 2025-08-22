@@ -1,12 +1,5 @@
 [
   {
-    "image": "test",
-    "link": "test",
-    "title": "test",
-    "description": "test",
-    "skills": ["test", "test", "test"]
-  },
-  {
     "image": "/img/project1.jpg",
     "title": "Project One",
     "description": "A landing page built with HTML, CSS and JavaScript.",

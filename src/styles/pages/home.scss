@@ -91,10 +91,17 @@
         > div {
           display: flex;
           align-items: center;
-          gap: 20px;
+          gap: 25px;
           > div {
             display: flex;
             flex-direction: column;
+          }
+          #mail-icone,
+          #phone-icone,
+          #mapin-icone {
+            background-color: #111419;
+            padding: 10px 11px;
+            border-radius: 4px;
           }
         }
       }

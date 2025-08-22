@@ -15,7 +15,7 @@ export function Header() {
     <div id="floating-header">
       <header id="header">
         <Link to="/" className="logo">
-          Inhuman.dev
+          thms.dev
         </Link>
         <nav>
           <ul>

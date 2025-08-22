@@ -5,6 +5,7 @@ import "../styles/pages/experience.scss";
 export function Experience() {
   return (
     <>
+    <div id="header-ancre"></div>
       <Header />
       <main id="experience">
         <section>

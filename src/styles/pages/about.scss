@@ -32,7 +32,12 @@
     .icone {
       display: flex;
       align-items: center;
-      gap: 75px;
+      gap: 56px;
+      > a {
+        background-color: #111419;
+        padding: 13px 15px;
+        border-radius: 4px;
+      }
     }
   }
 }
