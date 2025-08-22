@@ -6,7 +6,7 @@ import { Header } from "@/components/header";
 import { ProjectsCards } from "@/components/projects-cards";
 import { SkillTech } from "@/components/skill&tech";
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, MapPin, Phone, School } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 import "../styles/pages/home.scss";
 
@@ -47,10 +47,12 @@ export function Home() {
             </p>
           </div>
           <div>
-            <ProjectsCards />
+            <ProjectsCards limit={3} />
           </div>
           <div>
-            <Button>See More</Button>
+            <Link to="/project">
+              <Button>See More</Button>
+            </Link>
           </div>
         </section>
         <section className="skill">
@@ -79,27 +81,35 @@ export function Home() {
                 <Mail />
                 <div>
                   <p>Email</p>
-                  <p>Inhuman@gmail.com</p>
+                  <a href="mailto:inhuman@gmail.com" target="_blank">
+                    Inhuman@gmail.com
+                  </a>
                 </div>
               </div>
               <div>
                 <Phone />
                 <div>
                   <p>Phone</p>
-                  <p>+1 (555) 123-4567</p>
+                  <a href="tel:+1 (555) 123-4567" target="_blank">
+                    +1 (555) 123-4567
+                  </a>
                 </div>
               </div>
               <div>
                 <MapPin />
                 <div>
                   <p>Location</p>
-                  <p>San Francisco, CA</p>
+                  <address>
+                    <address>
+                      <a
+                        href="https://www.google.com/maps/place/83170+Brignoles/@43.4049461,6.0586847,15z/data=!4m6!3m5!1s0x12c941e57cd2f639:0x40819a5fd8fcf40!8m2!3d43.406204!4d6.0592489!16s%2Fg%2F11bc6bnnbq?hl=fr&entry=ttu&g_ep=EgoyMDI1MDMyNC4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D"
+                        target="_blank"
+                      >
+                        San Francisco, CA
+                      </a>
+                    </address>
+                  </address>
                 </div>
-              </div>
-              <div className="icone">
-                <School />
-                <Linkedin />
-                <Github />
               </div>
             </div>
             <div className="form">

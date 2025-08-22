@@ -1,0 +1,29 @@
+@import "../base/variables.scss";
+
+#projects {
+  section {
+    max-width: 1240px;
+    margin: auto;
+    padding: 100px 15px;
+    > div:nth-child(1) {
+      text-align: center;
+    }
+    > div:nth-child(2) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px;
+      align-items: center;
+      padding: $space-md;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  #projects section > div:nth-child(2) {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  #projects section > div:nth-child(2) {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}

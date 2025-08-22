@@ -1,5 +1,6 @@
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { Github, Linkedin, School } from "lucide-react";
 import "../styles/pages/about.scss";
 
 export function About() {
@@ -30,6 +31,11 @@ export function About() {
               développement web, je suis toujours à la recherche de nouveaux
               défis pour m'améliorer !
             </p>
+            <div className="icone">
+              <School />
+              <Linkedin />
+              <Github />
+            </div>
           </div>
           <div>
             <img src="/img/moi.jpg" alt="Inhuman" />

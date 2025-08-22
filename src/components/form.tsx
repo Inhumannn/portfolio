@@ -94,7 +94,7 @@ export function ContactForm() {
                 <FormControl>
                   <Textarea
                     placeholder="Votre message ici..."
-                    className="resize-none"
+                    className="resize-none h-50"
                     rows={5}
                     {...field}
                   />

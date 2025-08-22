@@ -1,4 +1,5 @@
-#root > main > section.project > div:nth-child(2) {
+#root > main > section.project > div:nth-child(2),
+#projects section > div:nth-child(2) {
   article {
     border: 1px solid #403e3e;
     border-radius: 4px;

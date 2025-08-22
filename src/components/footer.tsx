@@ -1,5 +1,6 @@
 import { ArrowUp } from "lucide-react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "../styles/layout/footer.scss";
 
 export function Footer() {
@@ -8,9 +9,9 @@ export function Footer() {
       <hr />
       <footer>
         <Link to="">&copy; 2025 Inhuman. All rights reserved.</Link>
-        <a href="#header-ancre">
+        <HashLink smooth to="#header-ancre">
           <ArrowUp />
-        </a>
+        </HashLink>
       </footer>
     </>
   );

@@ -12,7 +12,11 @@ type Project = {
   image: string;
 };
 
-export function ProjectsCards() {
+type ProjectsCardsProps = {
+  limit?: number;
+};
+
+export function ProjectsCards({ limit }: ProjectsCardsProps) {
   const [projects, setProjects] = useState<Project[]>([]);
 
   useEffect(() => {
@@ -21,9 +25,12 @@ export function ProjectsCards() {
       .then((data) => setProjects(data))
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
+
+  const displayProjects = limit ? projects.slice(-limit) : projects;
+
   return (
     <>
-      {projects.slice(-3).map((project, index) => (
+      {displayProjects.map((project, index) => (
         <article key={index}>
           <img src={project.image} alt={project.title} />
           <div>

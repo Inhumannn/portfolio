@@ -49,10 +49,10 @@ export function Header() {
         <div id="menu">
           <DropdownMenu>
             <DropdownMenuTrigger>Menu</DropdownMenuTrigger>
-            <DropdownMenuContent>
-              <Link to="/">
+            <DropdownMenuContent id="menu-int">
+              <HashLink smooth to="/#header-ancre">
                 <DropdownMenuItem>Home</DropdownMenuItem>
-              </Link>
+              </HashLink>
               <Link to="/about">
                 <DropdownMenuItem>About</DropdownMenuItem>
               </Link>

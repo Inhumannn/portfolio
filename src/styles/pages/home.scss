@@ -80,9 +80,10 @@
     }
     > div:nth-child(2) {
       display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
       gap: 25px;
       padding: $space-md;
-      grid-template-columns: repeat(2, 1fr);
       .info {
         display: flex;
         flex-direction: column;
@@ -96,10 +97,11 @@
             flex-direction: column;
           }
         }
-        .icone {
-          display: flex;
-          align-items: center;
-          gap: 75px;
+      }
+      .form {
+        input,
+        textarea {
+          padding: 22px 13px;
         }
       }
     }
