@@ -3,25 +3,42 @@ import {
   FaCss3Alt,
   FaDatabase,
   FaDocker,
+  FaFigma,
+  FaGitAlt,
   FaGithub,
   FaHtml5,
   FaJsSquare,
+  FaMarkdown,
   FaNodeJs,
+  FaPhp,
+  FaPython,
   FaReact,
   FaTerminal,
+  FaWordpress,
 } from "react-icons/fa";
+import { GoDatabase } from "react-icons/go";
+import { IoLogoJavascript, IoLogoVercel } from "react-icons/io5";
 import "../styles/components/skill&tech.scss";
 
 const iconMap: Record<string, React.ElementType> = {
   FaHtml5,
   FaCss3Alt,
   FaJsSquare,
+  FaWordpress,
+  FaPhp,
+  FaPython,
+  FaGitAlt,
+  FaFigma,
   FaReact,
   FaNodeJs,
   FaDatabase,
   FaGithub,
   FaTerminal,
   FaDocker,
+  IoLogoJavascript,
+  FaMarkdown,
+  IoLogoVercel,
+  GoDatabase,
 };
 
 type Skill = {

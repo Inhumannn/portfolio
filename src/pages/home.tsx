@@ -7,10 +7,12 @@ import { ProjectsCards } from "@/components/projects-cards";
 import { SkillTech } from "@/components/skill&tech";
 import { Button } from "@/components/ui/button";
 import { Mail, MapPin, Phone } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import "../styles/pages/home.scss";
 
 export function Home() {
+  const { t } = useTranslation();
   return (
     <>
       <div id="header-ancre"></div>
@@ -19,17 +21,13 @@ export function Home() {
         <section className="about">
           <div>
             <h1>
-              Full Stack
-              <span>Developer</span>
+              {t("page-home.title11")}
+              <span>{t("page-home.title12")}</span>
             </h1>
-            <p>
-              Crafting digital experiences with clenan code and innovative
-              solutions. Specialised in modern web technologies ans scalable
-              erchitectures.
-            </p>
+            <p>{t("page-home.title-description")}</p>
             <div>
               <Link to="/about">
-                <Button variant="secondary">About Me</Button>
+                <Button variant="secondary">{t("page-home.aboutme")}</Button>
               </Link>
               <CvButton />
             </div>
@@ -40,10 +38,9 @@ export function Home() {
         </section>
         <section className="project">
           <div>
-            <h2>interesting project</h2>
-            <p>
-              A selection of my recent work showcasing different technologies
-              and <br /> approaches to solving complex problems.
+            <h2>{t("page-home.title2")}</h2>
+            <p style={{ whiteSpace: "pre-line" }}>
+              {t("page-home.title2-description")}.
             </p>
           </div>
           <div>
@@ -51,16 +48,15 @@ export function Home() {
           </div>
           <div>
             <Link to="/project">
-              <Button>See More</Button>
+              <Button>{t("page-home.seemore")}</Button>
             </Link>
           </div>
         </section>
         <section className="skill">
           <div>
-            <h2>Skills & Technologies</h2>
-            <p>
-              A comprehensive toolkit of modern technologies and <br />{" "}
-              frameworks I use to build exceptional digital experiences.
+            <h2>{t("page-home.title3")}</h2>
+            <p style={{ whiteSpace: "pre-line" }}>
+              {t("page-home.title3-description")}
             </p>
           </div>
           <div>
@@ -69,10 +65,9 @@ export function Home() {
         </section>
         <section className="contact" id="contact-ancre">
           <div>
-            <h2>Let's Work Together</h2>
-            <p>
-              Have a project in mind or want to discuss opportunities? I'd love
-              to hear from you. <br /> Let's create something amazing together.
+            <h2>{t("page-home.title4")}</h2>
+            <p style={{ whiteSpace: "pre-line" }}>
+              {t("page-home.title4-description")}
             </p>
           </div>
           <div>

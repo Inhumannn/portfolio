@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { useTranslation } from "react-i18next";
 
 const contactSchema = z.object({
   name: z.string().min(2, { message: "The name is too short." }),
@@ -26,6 +27,7 @@ const contactSchema = z.object({
 type ContactFormData = z.infer<typeof contactSchema>;
 
 export function ContactForm() {
+  const { t } = useTranslation();
   const form = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
     defaultValues: {
@@ -60,9 +62,9 @@ export function ContactForm() {
             name="name"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Nom</FormLabel>
+                <FormLabel>{t("page-home.form-name")}</FormLabel>
                 <FormControl>
-                  <Input placeholder="Your name" {...field} />
+                  <Input placeholder={t("page-home.form-name2")} {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -73,9 +75,13 @@ export function ContactForm() {
             name="email"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Email</FormLabel>
+                <FormLabel>{t("page-home.form-email")}</FormLabel>
                 <FormControl>
-                  <Input placeholder="Your email" type="email" {...field} />
+                  <Input
+                    placeholder={t("page-home.form-email2")}
+                    type="email"
+                    {...field}
+                  />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -86,13 +92,13 @@ export function ContactForm() {
             name="message"
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Message</FormLabel>
+                <FormLabel>{t("page-home.form-textarea")}</FormLabel>
                 <FormControl>
                   <Textarea
-                    placeholder="Your message here..."
+                    placeholder={t("page-home.form-textarea2")}
                     className="resize-none h-50"
                     rows={5}
-                    {...field}
+                    {...field}    
                   />
                 </FormControl>
                 <FormMessage />

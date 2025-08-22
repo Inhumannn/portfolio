@@ -1,23 +1,26 @@
 [
   {
     "image": "/img/project1.jpg",
-    "title": "Project One",
-    "description": "A landing page built with HTML, CSS and JavaScript.",
-    "skills": ["HTML", "CSS", "JavaScript"],
-    "link": "blabla"
+    "title": "Project Home",
+    "description": "A collection of home pages.",
+    "skills": ["HTML", "CSS"],
+    "github": "https://github.com/Inhumannn/Project-Home",
+    "link": "https://project-home-brown.vercel.app/"
   },
   {
     "image": "/img/project2.jpg",
-    "link": "blabla",
-    "title": "Project Two",
-    "description": "A React app with TypeScript and Vite.",
-    "skills": ["React", "TypeScript", "Vite"]
+    "title": "Project Home",
+    "description": "A collection of home pages.",
+    "skills": ["HTML", "CSS"],
+    "github": "https://github.com/Inhumannn/Project-Home",
+    "link": "https://project-home-brown.vercel.app/"
   },
   {
     "image": "/img/project3.jpg",
-    "link": "blabla",
-    "title": "Project Three",
-    "description": "A RESTful API built with Node.js and Express.",
-    "skills": ["Node.js", "Express", "MongoDB"]
+    "title": "Project Home",
+    "description": "A collection of home pages.",
+    "skills": ["HTML", "CSS"],
+    "github": "https://github.com/Inhumannn/Project-Home",
+    "link": "https://project-home-brown.vercel.app/"
   }
 ]

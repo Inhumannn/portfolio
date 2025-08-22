@@ -1,0 +1,37 @@
+{
+  "header": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contacts": "Contacts"
+  },
+  "footer": {
+    "d": "© 2025 Thomas PENA--BERMOND. All rights reserved."
+  },
+  "page-home": {
+    "title11": "Full Stack",
+    "title12": "Developer",
+    "title-description": "Crafting digital experiences with clenan code and innovative solutions. Specialised in modern web technologies ans scalable erchitectures.",
+    "aboutme": "About Me",
+    "button-cv": "Download CV",
+    "title2": "interesting project",
+    "title2-description": "A selection of my recent work showcasing  different \n technologies and  approaches to solving complex problems.",
+    "seemore": "See More",
+    "title3": "Skills & Technologies",
+    "title3-description": "A comprehensive toolkit of modern technologies and \n frameworks I use to build exceptional digital experiences.",
+    "title4": "Let's Work Together",
+    "title4-description": "Have a project in mind or want to discuss opportunities? \n I'd love to hear from you. Let's create something amazing together.",
+    "form-name": "Name",
+    "form-email": "Email",
+    "form-textarea": "Object",
+    "form-name2": "Your name",
+    "form-email2": "Your email",
+    "form-textarea2": "Your message here.."
+  },
+  "page-about": {
+    "about": "About Me",
+    "description1": "Currently training in web development, I specialize in creating modern websites and web applications. I am proficient in front-end technologies such as HTML, CSS, JavaScript, and React, and have solid back-end experience with PHP, Python, and NodeJS.",
+    "description2": "I also work with tools such as Git and GitHub for code versioning, and am familiar with WordPress for custom website development. I have acquired practical skills in creating e-commerce websites and am able to develop customized solutions tailored to the specific needs of projects.",
+    "description3": "Thanks to my ability to learn quickly and my passion for web development, I am always looking for new challenges to improve myself!"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "header": {
+    "about": "À propos",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "contacts": "Contacts"
+  },
+  "footer": {
+    "d": "© 2025 Thomas PENA--BERMOND. Tous droits réservés."
+  },
+  "page-home": {
+    "title11": "Développeur",
+    "title12": "Full Stack",
+    "title-description": "Créer des expériences numériques avec un code propre et des solutions innovantes. Spécialisé dans les technologies web modernes et les architectures évolutives.",
+    "aboutme": "À propos de moi",
+    "button-cv": "Télécharger le CV",
+    "title2": "Projet intéressant",
+    "title2-description": "Une sélection de mes travaux récents mettant en avant différentes \n technologies et approches pour résoudre des problèmes complexes.",
+    "seemore": "Voir plus",
+    "title3": "Compétences & Technologies",
+    "title3-description": "Un ensemble complet de technologies et frameworks modernes que \n j'utilise pour créer des expériences numériques exceptionnelles.",
+    "title4": "Travaillons ensemble",
+    "title4-description": "Un projet en tête ou envie d’échanger ?  Je serais ravi \n de vous écouter.  Créons quelque chose d’incroyable ensemble.",
+    "form-name": "Nom",
+    "form-email": "Email",
+    "form-textarea": "Objet",
+    "form-name2": "Votre nom",
+    "form-email2": "Votre e-mail",
+    "form-textarea2": "Votre message ici..."
+  },
+  "page-about": {
+    "about": "À propos de moi",
+    "description1": "Actuellement en formation en développement web, je me spécialise dans la création de sites web et d'applications modernes. Je maîtrise les technologies front-end telles que HTML, CSS, JavaScript et React, et possède une solide expérience en back-end avec PHP, Python et NodeJS.",
+    "description2": "J’utilise également des outils comme Git et GitHub pour le versionnage de code, et je suis familiarisé avec WordPress pour le développement de sites personnalisés. J’ai acquis des compétences pratiques dans la création de sites e-commerce et je suis capable de développer des solutions sur mesure adaptées aux besoins spécifiques des projets.",
+    "description3": "Grâce à ma capacité d’apprentissage rapide et ma passion pour le développement web, je suis toujours à la recherche de nouveaux défis pour progresser !"
+  }
+}

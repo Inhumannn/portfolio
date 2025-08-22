@@ -1,5 +1,6 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import { Route, Routes } from "react-router-dom";
+import "./i18n";
 import { Custom404 } from "./pages/404";
 import { About } from "./pages/about";
 import { Experience } from "./pages/experience";

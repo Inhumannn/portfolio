@@ -5,12 +5,17 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import "../styles/layout/header.scss";
-import { ModeToggle } from "./mode-toggle";
 
 export function Header() {
+  const { i18n } = useTranslation();
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
   return (
     <div id="floating-header">
       <header id="header">
@@ -21,28 +26,35 @@ export function Header() {
           <ul>
             <li>
               <Button variant="link">
-                <Link to="/about">About</Link>
+                <Link to="/about">{t("header.about")}</Link>
               </Button>
             </li>
             <li>
               <Button variant="link">
-                <Link to="/experience">Experience</Link>
+                <Link to="/experience">{t("header.experience")}</Link>
               </Button>
             </li>
             <li>
               <Button variant="link">
-                <Link to="/project">Projects</Link>
+                <Link to="/project">{t("header.contacts")}</Link>
               </Button>
             </li>
             <li>
               <Button variant="link">
                 <HashLink smooth to="/#contact-ancre">
-                  Contacts
+                  {t("header.about")}
                 </HashLink>
               </Button>
             </li>
             <li>
-              <ModeToggle />
+              <Button
+                variant="outline"
+                onClick={() =>
+                  changeLanguage(i18n.language === "fr" ? "en" : "fr")
+                }
+              >
+                {i18n.language === "fr" ? "English" : "Français"}
+              </Button>
             </li>
           </ul>
         </nav>
@@ -54,16 +66,16 @@ export function Header() {
                 <DropdownMenuItem>Home</DropdownMenuItem>
               </HashLink>
               <Link to="/about">
-                <DropdownMenuItem>About</DropdownMenuItem>
+                <DropdownMenuItem>{t("header.about")}</DropdownMenuItem>
               </Link>
               <Link to="/experience">
-                <DropdownMenuItem>Experience</DropdownMenuItem>
+                <DropdownMenuItem>{t("header.experience")}</DropdownMenuItem>
               </Link>
               <Link to="/project">
-                <DropdownMenuItem>Projects</DropdownMenuItem>
+                <DropdownMenuItem>{t("header.contacts")}</DropdownMenuItem>
               </Link>
               <HashLink smooth to="/#contact-ancre">
-                <DropdownMenuItem>Contacts</DropdownMenuItem>
+                <DropdownMenuItem>{t("header.contacts")} </DropdownMenuItem>
               </HashLink>
             </DropdownMenuContent>
           </DropdownMenu>
