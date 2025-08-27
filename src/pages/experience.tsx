@@ -11,7 +11,7 @@ export function Experience() {
       <Header />
       <main id="experience" className="w-full overflow-hidden">
         <div className="w-full h-full">
-          <div className="absolute inset-0 -z-10 overflow-hidden">
+          <div className="fixed inset-0 -z-10 overflow-hidden">
             <DarkVeil />
           </div>
           <section className="z-10 about">

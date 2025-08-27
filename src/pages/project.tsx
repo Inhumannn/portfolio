@@ -11,7 +11,7 @@ export function Project() {
       <Header />
       <main id="projects" className="relative w-full overflow-hidden">
         <div className="relative w-full h-full">
-          <div className="absolute inset-0 -z-10 overflow-hidden">
+          <div className="fixed inset-0 -z-10 overflow-hidden">
             <DarkVeil />
           </div>
           <section className="relative z-10">

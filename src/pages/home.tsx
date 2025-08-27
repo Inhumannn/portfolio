@@ -18,7 +18,7 @@ export function Home() {
       <Header />
       <main id="home">
         <div className="w-full h-full overflow-hidden">
-          <div className="absolute inset-0 -z-10 overflow-hidden">
+          <div className="fixed inset-0 -z-10 overflow-hidden">
             <DarkVeil />
           </div>
           <section className="about z-10">
