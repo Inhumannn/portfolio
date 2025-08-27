@@ -1,6 +1,6 @@
 [
   {
-    "image": "/img/project1.jpg",
+    "image": "/img/project1.webp",
     "title": "Project Home",
     "description": "A collection of home pages.",
     "skills": ["HTML", "CSS"],
@@ -8,7 +8,7 @@
     "link": "https://project-home-brown.vercel.app/"
   },
   {
-    "image": "/img/project1.jpg",
+    "image": "/img/project1.webp",
     "title": "Project Home",
     "description": "A collection of home pages.",
     "skills": ["HTML", "CSS"],
@@ -16,7 +16,7 @@
     "link": "https://project-home-brown.vercel.app/"
   },
   {
-    "image": "/img/project1.jpg",
+    "image": "/img/project1.webp",
     "title": "Project Home",
     "description": "A collection of home pages.",
     "skills": ["HTML", "CSS"],
@@ -24,7 +24,7 @@
     "link": "https://project-home-brown.vercel.app/"
   },
   {
-    "image": "/img/project2.jpg",
+    "image": "/img/project2.webp",
     "title": "Project Home",
     "description": "A collection of home pages.",
     "skills": ["HTML", "CSS"],
@@ -32,7 +32,7 @@
     "link": "https://project-home-brown.vercel.app/"
   },
   {
-    "image": "/img/project2.jpg",
+    "image": "/img/project2.webp",
     "title": "Project Home",
     "description": "A collection of home pages.",
     "skills": ["HTML", "CSS"],
@@ -40,7 +40,7 @@
     "link": "https://project-home-brown.vercel.app/"
   },
   {
-    "image": "/img/project2.jpg",
+    "image": "/img/project2.webp",
     "title": "Project Home",
     "description": "A collection of home pages.",
     "skills": ["HTML", "CSS"],
@@ -48,7 +48,7 @@
     "link": "https://project-home-brown.vercel.app/"
   },
   {
-    "image": "/img/project3.jpg",
+    "image": "/img/project3.webp",
     "title": "Project Home",
     "description": "A collection of home pages.",
     "skills": ["HTML", "CSS"],
@@ -56,7 +56,7 @@
     "link": "https://project-home-brown.vercel.app/"
   },
   {
-    "image": "/img/project3.jpg",
+    "image": "/img/project3.webp",
     "title": "Project Home",
     "description": "A collection of home pages.",
     "skills": ["HTML", "CSS"],
@@ -64,7 +64,7 @@
     "link": "https://project-home-brown.vercel.app/"
   },
   {
-    "image": "/img/project3.jpg",
+    "image": "/img/project3.webp",
     "title": "Project Home",
     "description": "A collection of home pages.",
     "skills": ["HTML", "CSS"],

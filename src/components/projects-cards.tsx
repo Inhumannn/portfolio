@@ -32,7 +32,7 @@ export function ProjectsCards({ limit }: ProjectsCardsProps) {
     <>
       {displayProjects.map((project, index) => (
         <article key={index}>
-          <img src={project.image} alt={project.title} />
+          <img src={project.image} alt={project.title} loading="lazy" />
           <div>
             <h3>{project.title} </h3>
             <p>{project.description} </p>

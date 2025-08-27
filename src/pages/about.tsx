@@ -48,7 +48,7 @@ export function About() {
               </div>
             </div>
             <div>
-              <img src="/img/moi.jpg" alt="Inhuman" />
+              <img src="/img/moi.webp" alt="Inhuman" />
             </div>
           </section>
         </div>

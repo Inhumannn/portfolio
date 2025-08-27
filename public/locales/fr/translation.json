@@ -47,7 +47,7 @@
   },
   "project": [
     {
-      "image": "/img/project1.jpg",
+      "image": "/img/project1.webp",
       "title": "Projet Accueil",
       "description": "Une collection de pages d’accueil.",
       "skills": ["HTML", "CSS"],
@@ -55,7 +55,7 @@
       "link": "https://project-home-brown.vercel.app/"
     },
     {
-      "image": "/img/project2.jpg",
+      "image": "/img/project2.webp",
       "title": "Projet Accueil",
       "description": "Une collection de pages d’accueil.",
       "skills": ["HTML", "CSS"],
@@ -63,7 +63,7 @@
       "link": "https://project-home-brown.vercel.app/"
     },
     {
-      "image": "/img/project3.jpg",
+      "image": "/img/project3.webp",
       "title": "Projet Accueil",
       "description": "Une collection de pages d’accueil.",
       "skills": ["HTML", "CSS"],

@@ -1,7 +1,5 @@
 import "../styles/components/codeblock.scss";
 
-import "../styles/components/codeblock.scss";
-
 export function CodeBlock() {
   return (
     <pre className="json-block">
