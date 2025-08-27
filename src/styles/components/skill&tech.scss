@@ -19,7 +19,11 @@
           transform: scale(1.07);
         }
         .icone {
-          background-color: #111419;
+          background-color: color-mix(
+            in oklab,
+            oklch(1 0 0 / 15%) 50%,
+            transparent
+          );
           padding: 13px 15px;
           border-radius: 4px;
         }

@@ -32,7 +32,11 @@
           #mail-icone,
           #phone-icone,
           #mapin-icone {
-            background-color: #111419;
+            background-color: color-mix(
+              in oklab,
+              oklch(1 0 0 / 15%) 50%,
+              transparent
+            );
             padding: 10px 11px;
             border-radius: 4px;
           }

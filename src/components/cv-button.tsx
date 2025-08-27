@@ -5,7 +5,15 @@ export function CvButton() {
   const { t } = useTranslation();
   return (
     <a href="/cv.pdf" download="CV.pdf">
-      <Button variant="secondary">{t("page-home.button-cv")}</Button>
+      <Button
+        variant="outline"
+        style={{
+          backgroundColor:
+            "color-mix(in oklab, oklch(1 0 0 / 15%) 70%, transparent)",
+        }}
+      >
+        {t("page-home.button-cv")}
+      </Button>
     </a>
   );
 }

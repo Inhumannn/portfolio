@@ -3,10 +3,14 @@
   article {
     border: 1px solid #403e3e;
     border-radius: 4px;
-    background-color: #1a1a1a;
+    background-color: color-mix(in oklab, oklch(1 0 0 / 15%) 60%, transparent);
     transition: all 0.5s ease-in-out;
     &:hover {
-      background: #222;
+      background-color: color-mix(
+        in oklab,
+        oklch(1 0 0 / 15%) 90%,
+        transparent
+      );
       border-color: #555;
       transform: translateY(-15px);
     }

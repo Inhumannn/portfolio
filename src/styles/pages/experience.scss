@@ -50,7 +50,7 @@
         top: 80%;
       }
       .timeline-date {
-        background-color: #222;
+        background-color: #222222fa;
         padding: 8px 14px;
         border-radius: 20px;
         position: absolute;
@@ -58,14 +58,23 @@
       }
       .timeline-content {
         text-align: end;
-        background-color: rgba(20, 23, 30, 0.7411764706);
+        background-color: color-mix(
+          in oklab,
+          oklch(1 0 0 / 15%) 50%,
+          transparent
+        );
+        backdrop-filter: blur(8px);
         padding: 20px;
         border-radius: 12px;
         width: 100%;
       }
       .timeline-tags p {
         display: inline-block;
-        background-color: #353c4dbd;
+        background-color: color-mix(
+          in oklab,
+          oklch(1 0 0 / 15%) 50%,
+          transparent
+        );
         font-size: 14px;
         font-weight: bolder;
         padding: 5px 10px;
