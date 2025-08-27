@@ -72,9 +72,9 @@ export function Header() {
               <Link to="/project">
                 <DropdownMenuItem>{t("header.projects")}</DropdownMenuItem>
               </Link>
-              <HashLink smooth to="/#contact-ancre">
+              <Link to="/contact">
                 <DropdownMenuItem>{t("header.contacts")} </DropdownMenuItem>
-              </HashLink>{" "}
+              </Link>
               <Button
                 variant="outline"
                 onClick={() =>
