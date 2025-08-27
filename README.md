@@ -1,69 +1,49 @@
-# React + TypeScript + Vite
+# thmsfolio - Personal portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**thmsfolio** is a fully responsive personal portfolio website, responsive for all devices, built using React. It adapts to all devices and showcases my projects, skills, and journey.
 
-Currently, two official plugins are available:
+## Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Desktop View
 
-## Expanding the ESLint configuration
+![Homepage Screenshot](screenshots/page-home-desktop.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Mobile View
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+![Mobile Screenshot](screenshots/page-home-mobile.png)
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## Teck Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **react** - TypeScript library for building user interfaces
+- **i18n** - Translation from English and French
+- **shadcn/ui** - Reusable UI components built on Radix UI and Tailwind CSS
+- **react-icons** - Icon library for languages
+- **lucide-react** - Icon library for icon
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Projects
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Project 1** - _description_
+- **Project 2** - _description_
+- **Project 3** - _description_
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+_Other projects are available in the online portfolio._
+
+## License
+
+This portfolio was conceived and designed from start to finish by me.
+It will evolve over time as my skills and projects grow.
+
+This is not an open-source project. Please do not copy or reuse any part of this portfolio without my permission.
+
+## Contact
+
+Feel free to reach out or follow me on [LinkedIn](https://www.linkedin.com/in/thomas-pena-bermond/) or [GitHub](https://github.com/Inhumannn).
+
+## Launch the project locally
+
+```bash
+git clone https://github.com/Inhumannn/portfolioo
+cd name-of-repo
+npm install
+npm run dev
 ```
