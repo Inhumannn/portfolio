@@ -1,0 +1,65 @@
+@import "../base/reset.scss";
+
+#contact {
+  .contact {
+    max-width: 1240px;
+    margin: auto;
+    padding: $space-lg 53px;
+    > div:nth-child(1) {
+      text-align: center;
+      h2 {
+        margin-bottom: 14px;
+      }
+    }
+    > div:nth-child(2) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      gap: 25px;
+      padding: $space-md 0px;
+      .info {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        > div {
+          display: flex;
+          align-items: center;
+          gap: 25px;
+          > div {
+            display: flex;
+            flex-direction: column;
+          }
+          #mail-icone,
+          #phone-icone,
+          #mapin-icone {
+            background-color: #111419;
+            padding: 10px 11px;
+            border-radius: 4px;
+          }
+        }
+      }
+      .form {
+        input,
+        textarea {
+          padding: 22px 13px;
+        }
+        input:-webkit-autofill {
+          -webkit-box-shadow: 0 0 0 1000px #151515 inset !important;
+          -webkit-text-fill-color: white !important;
+          border: 1px solid #373737;
+          caret-color: white !important;
+        }
+        input:-moz-autofill {
+          background-color: #151515 !important;
+          border: 1px solid #373737;
+          color: white !important;
+        }
+      }
+    }
+  }
+  #«r2»-form-item-message,
+  #«r3»-form-item-message,
+  #«r4»-form-item-message {
+    font-size: clamp(14px, 1.5vw, 18px);
+  }
+}

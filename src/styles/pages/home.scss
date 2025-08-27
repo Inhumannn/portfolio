@@ -71,58 +71,8 @@
       grid-column: 3;
     }
   }
-  .contact {
-    max-width: 1240px;
-    margin: auto;
-    padding: $space-lg;
-    > div:nth-child(1) {
-      text-align: center;
-      h2 {
-        margin-bottom: 14px;
-      }
-    }
-    > div:nth-child(2) {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      align-items: center;
-      gap: 25px;
-      padding: $space-md;
-      .info {
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        > div {
-          display: flex;
-          align-items: center;
-          gap: 25px;
-          > div {
-            display: flex;
-            flex-direction: column;
-          }
-          #mail-icone,
-          #phone-icone,
-          #mapin-icone {
-            background-color: #111419;
-            padding: 10px 11px;
-            border-radius: 4px;
-          }
-        }
-      }
-      .form {
-        input,
-        textarea {
-          padding: 22px 13px;
-        }
-      }
-    }
-  }
-  #«r2»-form-item-message,
-  #«r3»-form-item-message,
-  #«r4»-form-item-message {
-    font-size: clamp(14px, 1.5vw, 18px);
-  }
 }
-@media screen and (max-width: 1159px) {
+@media screen and (max-width: 1179px) {
   #home .skill > div:nth-child(2) {
     grid-template-columns: repeat(2, 1fr);
   }

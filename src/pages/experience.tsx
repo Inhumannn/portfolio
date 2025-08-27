@@ -1,26 +1,32 @@
+import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
-import "../styles/pages/experience.scss";
 import { TimeLine } from "@/components/time-line";
+import "../styles/pages/experience.scss";
 
 export function Experience() {
   return (
     <>
       <div id="header-ancre"></div>
       <Header />
-      <main id="experience">
-        <section>
-          <div>
-            <h2>Experience</h2>
-            <p>
-              A timeline of my professional journey and key achievements in the
-              tech industry.
-            </p>
+      <main id="experience" className="w-full overflow-hidden">
+        <div className="w-full h-full">
+          <div className="absolute inset-0 -z-10 overflow-hidden">
+            <DarkVeil />
           </div>
-          <div className="timeline">
-            <TimeLine />
-          </div>
-        </section>
+          <section className="z-10 about">
+            <div>
+              <h2>Experience</h2>
+              <p>
+                A timeline of my professional journey and key achievements in
+                the tech industry.
+              </p>
+            </div>
+            <div className="timeline">
+              <TimeLine />
+            </div>
+          </section>
+        </div>
       </main>
       <Footer />
     </>

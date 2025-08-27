@@ -4,6 +4,12 @@
     border: 1px solid #403e3e;
     border-radius: 4px;
     background-color: #1a1a1a;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+      background: #222;
+      border-color: #555;
+      transform: translateY(-15px);
+    }
     > img {
       border-radius: 4px 4px 0 0;
       width: 100%;

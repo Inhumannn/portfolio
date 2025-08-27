@@ -41,9 +41,7 @@ export function Header() {
             </li>
             <li>
               <Button variant="link">
-                <HashLink smooth to="/#contact-ancre">
-                  {t("header.contacts")}
-                </HashLink>
+                <Link to="/contact">{t("header.contacts")}</Link>
               </Button>
             </li>
             <li>
@@ -82,7 +80,7 @@ export function Header() {
                 onClick={() =>
                   changeLanguage(i18n.language === "fr" ? "en" : "fr")
                 }
-                className="px-[36px] py-0 bg-transparent border-none"
+                className="px-[36px] py-0 m-1 bg-transparent border-none"
               >
                 {i18n.language === "fr" ? "English" : "Français"}
               </Button>

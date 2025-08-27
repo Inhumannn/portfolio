@@ -8,7 +8,55 @@
     "link": "https://project-home-brown.vercel.app/"
   },
   {
+    "image": "/img/project1.jpg",
+    "title": "Project Home",
+    "description": "A collection of home pages.",
+    "skills": ["HTML", "CSS"],
+    "github": "https://github.com/Inhumannn/Project-Home",
+    "link": "https://project-home-brown.vercel.app/"
+  },
+  {
+    "image": "/img/project1.jpg",
+    "title": "Project Home",
+    "description": "A collection of home pages.",
+    "skills": ["HTML", "CSS"],
+    "github": "https://github.com/Inhumannn/Project-Home",
+    "link": "https://project-home-brown.vercel.app/"
+  },
+  {
     "image": "/img/project2.jpg",
+    "title": "Project Home",
+    "description": "A collection of home pages.",
+    "skills": ["HTML", "CSS"],
+    "github": "https://github.com/Inhumannn/Project-Home",
+    "link": "https://project-home-brown.vercel.app/"
+  },
+  {
+    "image": "/img/project2.jpg",
+    "title": "Project Home",
+    "description": "A collection of home pages.",
+    "skills": ["HTML", "CSS"],
+    "github": "https://github.com/Inhumannn/Project-Home",
+    "link": "https://project-home-brown.vercel.app/"
+  },
+  {
+    "image": "/img/project2.jpg",
+    "title": "Project Home",
+    "description": "A collection of home pages.",
+    "skills": ["HTML", "CSS"],
+    "github": "https://github.com/Inhumannn/Project-Home",
+    "link": "https://project-home-brown.vercel.app/"
+  },
+  {
+    "image": "/img/project3.jpg",
+    "title": "Project Home",
+    "description": "A collection of home pages.",
+    "skills": ["HTML", "CSS"],
+    "github": "https://github.com/Inhumannn/Project-Home",
+    "link": "https://project-home-brown.vercel.app/"
+  },
+  {
+    "image": "/img/project3.jpg",
     "title": "Project Home",
     "description": "A collection of home pages.",
     "skills": ["HTML", "CSS"],

@@ -20,8 +20,20 @@
       align-items: center;
       gap: 60px;
     }
-    #menu-int {
-      z-index: 50;
+  }
+}
+#menu-int {
+  z-index: 50;
+  background: transparent;
+  backdrop-filter: blur(8px);
+  > a {
+    div:hover {
+      background-color: color-mix(
+        in oklab,
+        oklch(1 0 0 / 15%) 30%,
+        transparent
+      );
+      backdrop-filter: blur(60px);
     }
   }
 }

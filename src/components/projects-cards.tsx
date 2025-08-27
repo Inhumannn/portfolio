@@ -38,7 +38,7 @@ export function ProjectsCards({ limit }: ProjectsCardsProps) {
             <p>{project.description} </p>
             <div>
               {project.skills.map((skill, i) => (
-                <Badge variant="default" key={i}>
+                <Badge variant="outline" key={i}>
                   {skill}
                 </Badge>
               ))}
