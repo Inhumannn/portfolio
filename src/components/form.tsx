@@ -18,16 +18,19 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useTranslation } from "react-i18next";
 
-const contactSchema = z.object({
-  name: z.string().min(2, { message: "The name is too short." }),
-  email: z.string().email({ message: "Invalid email address." }),
-  message: z.string().min(10, { message: "The message is too short." }),
-});
-
-type ContactFormData = z.infer<typeof contactSchema>;
-
 export function ContactForm() {
   const { t } = useTranslation();
+
+  const contactSchema = z.object({
+    name: z.string().min(2, { message: t("page-home.form-name-warning") }),
+    email: z.string().email({ message: t("page-home.form-email-warning") }),
+    message: z
+      .string()
+      .min(10, { message: t("page-home.form-message-warning") }),
+  });
+
+  type ContactFormData = z.infer<typeof contactSchema>;
+
   const form = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
     defaultValues: {
@@ -98,7 +101,7 @@ export function ContactForm() {
                     placeholder={t("page-home.form-textarea2")}
                     className="resize-none h-50"
                     rows={5}
-                    {...field}    
+                    {...field}
                   />
                 </FormControl>
                 <FormMessage />

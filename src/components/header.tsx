@@ -20,7 +20,7 @@ export function Header() {
     <div id="floating-header">
       <header id="header">
         <Link to="/" className="logo">
-          thms.dev
+          thmsfolio
         </Link>
         <nav>
           <ul>
@@ -36,13 +36,13 @@ export function Header() {
             </li>
             <li>
               <Button variant="link">
-                <Link to="/project">{t("header.contacts")}</Link>
+                <Link to="/project">{t("header.projects")}</Link>
               </Button>
             </li>
             <li>
               <Button variant="link">
                 <HashLink smooth to="/#contact-ancre">
-                  {t("header.about")}
+                  {t("header.contacts")}
                 </HashLink>
               </Button>
             </li>

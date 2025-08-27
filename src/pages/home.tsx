@@ -77,7 +77,7 @@ export function Home() {
                   <Mail />
                 </div>
                 <div>
-                  <p>Email</p>
+                  <p>{t("page-home.info-mail")}</p>
                   <a href="mailto:thomas.pnbm@gmail.com" target="_blank">
                     thomas.pnbm@gmail.com
                   </a>
@@ -88,7 +88,7 @@ export function Home() {
                   <Phone />
                 </div>
                 <div>
-                  <p>Phone</p>
+                  <p>{t("page-home.info-phone")}</p>
                   <a href="tel:0743303698" target="_blank">
                     +33 07 43 30 36 98
                   </a>
@@ -99,7 +99,7 @@ export function Home() {
                   <MapPin />
                 </div>
                 <div>
-                  <p>Location</p>
+                  <p>{t("page-home.info-location")}</p>
                   <address>
                     <address>
                       <a

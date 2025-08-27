@@ -1,18 +1,20 @@
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import "../styles/pages/404.scss";
 
 export function Custom404() {
+  const { t } = useTranslation();
   return (
     <main id="notfound">
       <section>
         <div className="notfound-container">
           <h1>
-            404 <br /> Page Not Found
+            404 <br /> {t("notfound.404")}
           </h1>
-          <p>The page you're looking for doesn't exist or has been moved.</p>
+          <p>{t("notfound.404p")}</p>
           <Button variant="secondary">
-            <Link to="/">Back To Home</Link>
+            <Link to="/">{t("notfound.404b")}</Link>
           </Button>
         </div>
       </section>

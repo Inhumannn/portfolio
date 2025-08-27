@@ -1,7 +1,7 @@
-@import "../base/variables.scss";
+@import "../base/reset.scss";
+
 #aboutme {
-  padding-top: 60px;
-  min-height: calc(100vh - 60px - 50px);
+  min-height: calc(101vh - 16px - 50px);
   display: flex;
   justify-content: center;
   align-items: center;
