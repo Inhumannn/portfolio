@@ -18,7 +18,6 @@ import {
 } from "react-icons/fa";
 import { GoDatabase } from "react-icons/go";
 import { IoLogoJavascript, IoLogoVercel } from "react-icons/io5";
-import "../styles/components/skill&tech.scss";
 
 const iconMap: Record<string, React.ElementType> = {
   FaHtml5,

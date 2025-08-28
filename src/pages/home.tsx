@@ -8,7 +8,6 @@ import { SkillTech } from "@/components/skill&tech";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import "../styles/pages/home.scss";
 
 export function Home() {
   const { t } = useTranslation();

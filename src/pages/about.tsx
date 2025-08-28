@@ -3,7 +3,6 @@ import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Github, Linkedin, School } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import "../styles/pages/about.scss";
 
 export function About() {
   const { t } = useTranslation();

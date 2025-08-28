@@ -2,7 +2,6 @@ import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { TimeLine } from "@/components/time-line";
-import "../styles/pages/experience.scss";
 
 export function Experience() {
   return (

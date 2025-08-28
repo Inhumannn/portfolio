@@ -2,7 +2,6 @@ import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { ProjectsCards } from "@/components/projects-cards";
-import "../styles/pages/project.scss";
 
 export function Project() {
   return (

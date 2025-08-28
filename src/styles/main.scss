@@ -1,0 +1,18 @@
+@import "base/variables";
+@import "base/reset";
+
+@import "layout/header";
+@import "layout/footer";
+
+@import "components/buttons";
+@import "components/codeblock";
+@import "components/projects-cards";
+@import "components/skill&tech";
+
+@import "pages/404";
+@import "pages/about";
+@import "pages/contact";
+@import "pages/details";
+@import "pages/experience";
+@import "pages/home";
+@import "pages/project";

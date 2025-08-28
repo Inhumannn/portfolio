@@ -4,7 +4,6 @@ import { ContactForm } from "@/components/form";
 import { Header } from "@/components/header";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import "../styles/pages/contact.scss";
 
 export function Contact() {
   const { t } = useTranslation();

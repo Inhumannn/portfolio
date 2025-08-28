@@ -1,7 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
 import { useEffect, useState } from "react";
-import "../styles/components/projects-cards.scss";
 
 type Project = {
   title: string;

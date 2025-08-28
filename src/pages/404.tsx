@@ -2,7 +2,6 @@ import DotGrid from "@/components/dotGrid"; // Assure-toi que ce chemin est corr
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import "../styles/pages/404.scss";
 
 export function Custom404() {
   const { t } = useTranslation();
