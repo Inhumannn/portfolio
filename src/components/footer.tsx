@@ -10,7 +10,7 @@ export function Footer() {
     <>
       <hr />
       <footer>
-        <Link to="">{t("footer.d")}</Link>
+        <Link to="#">{t("footer.d")}</Link>
         <HashLink smooth to="#header-ancre">
           <ArrowUp />
         </HashLink>
