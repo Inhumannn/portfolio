@@ -55,6 +55,38 @@
       "link": "https://project-home-brown.vercel.app/"
     },
     {
+      "image": "/img/project1.webp",
+      "title": "Project Home",
+      "description": "A collection of home pages.",
+      "skills": ["HTML", "CSS"],
+      "github": "https://github.com/Inhumannn/Project-Home",
+      "link": "https://project-home-brown.vercel.app/"
+    },
+    {
+      "image": "/img/project1.webp",
+      "title": "Project Home",
+      "description": "A collection of home pages.",
+      "skills": ["HTML", "CSS"],
+      "github": "https://github.com/Inhumannn/Project-Home",
+      "link": "https://project-home-brown.vercel.app/"
+    },
+    {
+      "image": "/img/project2.webp",
+      "title": "Project Home",
+      "description": "A collection of home pages.",
+      "skills": ["HTML", "CSS"],
+      "github": "https://github.com/Inhumannn/Project-Home",
+      "link": "https://project-home-brown.vercel.app/"
+    },
+    {
+      "image": "/img/project2.webp",
+      "title": "Project Home",
+      "description": "A collection of home pages.",
+      "skills": ["HTML", "CSS"],
+      "github": "https://github.com/Inhumannn/Project-Home",
+      "link": "https://project-home-brown.vercel.app/"
+    },
+    {
       "image": "/img/project2.webp",
       "title": "Project Home",
       "description": "A collection of home pages.",
@@ -69,6 +101,105 @@
       "skills": ["HTML", "CSS"],
       "github": "https://github.com/Inhumannn/Project-Home",
       "link": "https://project-home-brown.vercel.app/"
+    },
+    {
+      "image": "/img/project3.webp",
+      "title": "Project Home",
+      "description": "A collection of home pages.",
+      "skills": ["HTML", "CSS"],
+      "github": "https://github.com/Inhumannn/Project-Home",
+      "link": "https://project-home-brown.vercel.app/"
+    },
+    {
+      "image": "/img/project3.webp",
+      "title": "Project Home",
+      "description": "A collection of home pages.",
+      "skills": ["HTML", "CSS"],
+      "github": "https://github.com/Inhumannn/Project-Home",
+      "link": "https://project-home-brown.vercel.app/"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Front-end",
+      "skills": [
+        { "icon": "FaHtml5", "name": "HTML" },
+        { "icon": "FaCss3Alt", "name": "CSS" },
+        { "icon": "IoLogoJavascript", "name": "JavaScript" },
+        { "icon": "FaReact", "name": "React" },
+        { "icon": "FaWordpress", "name": "WordPress" },
+        { "icon": "FaFigma", "name": "Figma" }
+      ]
+    },
+    {
+      "category": "Back-end",
+      "skills": [
+        { "icon": "FaNodeJs", "name": "Node.js" },
+        { "icon": "FaDatabase", "name": "MySQL" },
+        { "icon": "FaPhp", "name": "PHP" },
+        { "icon": "FaPython", "name": "Python" },
+        { "icon": "GoDatabase", "name": "MongoDB" }
+      ]
+    },
+    {
+      "category": "Tools & DevOps",
+      "skills": [
+        { "icon": "FaGithub", "name": "GitHub" },
+        { "icon": "FaGitAlt", "name": "Git" },
+        { "icon": "FaTerminal", "name": "Terminal" },
+        { "icon": "FaMarkdown", "name": "Markdown" },
+        { "icon": "IoLogoVercel", "name": "Vercel" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "dateTime": "Present",
+      "title": "Senior Full Stack Developer",
+      "enterprise": "TechCorp Solutions",
+      "description": "Led the development of enterprise level applications, managing a team of 5 developers and implementing modern development practices",
+      "tags": ["Team Leadership", "Full Stack", "Enterprise"],
+      "achievements": [
+        "Successfully delivered 3 major projects on time and under budget",
+        "Improved application performance by 40% through code optimization",
+        "Mentored junior developers and established coding standards"
+      ]
+    },
+    {
+      "dateTime": "2022-2023",
+      "title": "Full Stack Developer",
+      "enterprise": "WebDev Agency",
+      "description": "Developed responsive web applications using React and Node.js, collaborated with design teams to implement user-friendly interfaces",
+      "tags": ["React", "Node.js", "UI/UX"],
+      "achievements": [
+        "Built 10+ responsive websites with modern frameworks",
+        "Integrated third-party APIs and payment systems",
+        "Reduced loading times by 50% through optimization techniques"
+      ]
+    },
+    {
+      "dateTime": "2021-2022",
+      "title": "Frontend Developer",
+      "enterprise": "StartupTech",
+      "description": "Created interactive user interfaces and collaborated with backend developers to integrate APIs and ensure seamless user experience",
+      "tags": ["JavaScript", "CSS", "API Integration"],
+      "achievements": [
+        "Developed reusable component library used across 5 projects",
+        "Implemented responsive design for mobile-first approach",
+        "Collaborated with UX team to improve user engagement by 30%"
+      ]
+    },
+    {
+      "dateTime": "2020-2021",
+      "title": "Junior Web Developer",
+      "enterprise": "Digital Solutions",
+      "description": "Learned modern web development practices, contributed to various client projects, and gained experience in both frontend and backend technologies",
+      "tags": ["HTML/CSS", "JavaScript", "Learning"],
+      "achievements": [
+        "Completed 15+ client websites with high satisfaction ratings",
+        "Mastered version control with Git and collaborative workflows",
+        "Gained proficiency in multiple programming languages and frameworks"
+      ]
     }
   ]
 }

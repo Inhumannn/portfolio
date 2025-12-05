@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 type Experience = {
   dateTime: string;
@@ -10,13 +10,13 @@ type Experience = {
 };
 
 export function TimeLine() {
-  const [experiences, setExperices] = useState<Experience[]>([]);
-  useEffect(() => {
-    fetch("/data/experience.json")
-      .then((response) => response.json())
-      .then((data) => setExperices(data))
-      .catch((error) => console.error("Error fetching data:", error));
-  }, []);
+  const { t } = useTranslation();
+  const experiences = t('experience', { returnObjects: true }) as Experience[];
+  
+  if (!Array.isArray(experiences)) {
+    return null;
+  }
+  
   return (
     <>
       {experiences.map((experience, index) => (

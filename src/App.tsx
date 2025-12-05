@@ -1,5 +1,6 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import { Route, Routes } from "react-router-dom";
+import { Toaster } from "sonner";
 import "./i18n";
 import { Custom404 } from "./pages/404";
 import { About } from "./pages/about";
@@ -11,6 +12,7 @@ import { Project } from "./pages/project";
 export function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+      <Toaster position="top-right" />
       <Routes>
         <Route path="*" element={<Custom404 />} />
         <Route path="/" element={<Home />} />

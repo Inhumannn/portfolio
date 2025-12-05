@@ -1,6 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 type Project = {
   title: string;
@@ -16,15 +16,8 @@ type ProjectsCardsProps = {
 };
 
 export function ProjectsCards({ limit }: ProjectsCardsProps) {
-  const [projects, setProjects] = useState<Project[]>([]);
-
-  useEffect(() => {
-    fetch("/data/project.json")
-      .then((response) => response.json())
-      .then((data) => setProjects(data))
-      .catch((error) => console.error("Error fetching data:", error));
-  }, []);
-
+  const { t } = useTranslation();
+  const projects = t('project', { returnObjects: true }) as Project[];
   const displayProjects = limit ? projects.slice(-limit) : projects;
 
   return (

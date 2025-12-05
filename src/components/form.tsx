@@ -40,17 +40,23 @@ export function ContactForm() {
     },
   });
 
-  const onSubmit = (data: ContactFormData) => {
-    toast.success("Form submitted", {
-      description: (
-        <pre className="mt-2 w-[320px] rounded-md bg-neutral-950 p-4 text-white">
-          <code>{JSON.stringify(data, null, 2)}</code>
-        </pre>
-      ),
-    });
-    // Utilise pour renvoyer les données si besoins
-    console.log("Form submitted");
-    form.reset();
+  const onSubmit = async (data: ContactFormData) => {
+    try {
+      const response = await fetch('/api/send-email', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      
+      if (response.ok) {
+        toast.success("Message envoyé avec succès!");
+        form.reset();
+      } else {
+        toast.error("Erreur lors de l'envoi du message");
+      }
+    } catch {
+      toast.error("Erreur lors de l'envoi du message");
+    }
   };
 
   return (

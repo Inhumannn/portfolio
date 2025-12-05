@@ -18,9 +18,9 @@
     "title2-description": "Une sélection de mes travaux récents présentant différentes \n technologies et approches pour résoudre des problèmes complexes.",
     "seemore": "Voir plus",
     "title3": "Compétences & Technologies",
-    "title3-description": "Une boîte à outils complète de technologies et frameworks modernes \n que j’utilise pour créer des expériences numériques exceptionnelles.",
+    "title3-description": "Une boîte à outils complète de technologies et frameworks modernes \n que j'utilise pour créer des expériences numériques exceptionnelles.",
     "title4": "Travaillons ensemble",
-    "title4-description": "Un projet en tête ou envie de discuter d’opportunités ? \n Je serais ravi d’échanger avec vous. Créons quelque chose d’incroyable ensemble.",
+    "title4-description": "Un projet en tête ou envie de discuter d'opportunités ? \n Je serais ravi d'échanger avec vous. Créons quelque chose d'incroyable ensemble.",
     "info-mail": "Email",
     "info-phone": "Téléphone",
     "info-location": "Localisation",
@@ -37,8 +37,8 @@
   "page-about": {
     "about": "À propos de moi",
     "description1": "Actuellement en formation en développement web, je me spécialise dans la création de sites internet et d'applications web modernes. Je maîtrise les technologies front-end telles que HTML, CSS, JavaScript et React, et possède une solide expérience back-end avec PHP, Python et NodeJS.",
-    "description2": "J’utilise également des outils comme Git et GitHub pour la gestion de version, et je suis à l’aise avec WordPress pour le développement de sites personnalisés. J’ai acquis des compétences pratiques dans la création de sites e-commerce et je suis capable de développer des solutions sur mesure adaptées aux besoins spécifiques des projets.",
-    "description3": "Grâce à ma capacité d’apprentissage rapide et ma passion pour le développement web, je suis toujours à la recherche de nouveaux défis pour progresser !"
+    "description2": "J'utilise également des outils comme Git et GitHub pour la gestion de version, et je suis à l'aise avec WordPress pour le développement de sites personnalisés. J'ai acquis des compétences pratiques dans la création de sites e-commerce et je suis capable de développer des solutions sur mesure adaptées aux besoins spécifiques des projets.",
+    "description3": "Grâce à ma capacité d'apprentissage rapide et ma passion pour le développement web, je suis toujours à la recherche de nouveaux défis pour progresser !"
   },
   "notfound": {
     "404": "Page non trouvée",
@@ -49,7 +49,23 @@
     {
       "image": "/img/project1.webp",
       "title": "Projet Accueil",
-      "description": "Une collection de pages d’accueil.",
+      "description": "Une collection de pages d'accueil.",
+      "skills": ["HTML", "CSS"],
+      "github": "https://github.com/Inhumannn/Project-Home",
+      "link": "https://project-home-brown.vercel.app/"
+    },
+    {
+      "image": "/img/project1.webp",
+      "title": "Projet Accueil",
+      "description": "Une collection de pages d'accueil.",
+      "skills": ["HTML", "CSS"],
+      "github": "https://github.com/Inhumannn/Project-Home",
+      "link": "https://project-home-brown.vercel.app/"
+    },
+    {
+      "image": "/img/project1.webp",
+      "title": "Projet Accueil",
+      "description": "Une collection de pages d'accueil.",
       "skills": ["HTML", "CSS"],
       "github": "https://github.com/Inhumannn/Project-Home",
       "link": "https://project-home-brown.vercel.app/"
@@ -57,7 +73,23 @@
     {
       "image": "/img/project2.webp",
       "title": "Projet Accueil",
-      "description": "Une collection de pages d’accueil.",
+      "description": "Une collection de pages d'accueil.",
+      "skills": ["HTML", "CSS"],
+      "github": "https://github.com/Inhumannn/Project-Home",
+      "link": "https://project-home-brown.vercel.app/"
+    },
+    {
+      "image": "/img/project2.webp",
+      "title": "Projet Accueil",
+      "description": "Une collection de pages d'accueil.",
+      "skills": ["HTML", "CSS"],
+      "github": "https://github.com/Inhumannn/Project-Home",
+      "link": "https://project-home-brown.vercel.app/"
+    },
+    {
+      "image": "/img/project2.webp",
+      "title": "Projet Accueil",
+      "description": "Une collection de pages d'accueil.",
       "skills": ["HTML", "CSS"],
       "github": "https://github.com/Inhumannn/Project-Home",
       "link": "https://project-home-brown.vercel.app/"
@@ -65,10 +97,109 @@
     {
       "image": "/img/project3.webp",
       "title": "Projet Accueil",
-      "description": "Une collection de pages d’accueil.",
+      "description": "Une collection de pages d'accueil.",
       "skills": ["HTML", "CSS"],
       "github": "https://github.com/Inhumannn/Project-Home",
       "link": "https://project-home-brown.vercel.app/"
+    },
+    {
+      "image": "/img/project3.webp",
+      "title": "Projet Accueil",
+      "description": "Une collection de pages d'accueil.",
+      "skills": ["HTML", "CSS"],
+      "github": "https://github.com/Inhumannn/Project-Home",
+      "link": "https://project-home-brown.vercel.app/"
+    },
+    {
+      "image": "/img/project3.webp",
+      "title": "Projet Accueil",
+      "description": "Une collection de pages d'accueil.",
+      "skills": ["HTML", "CSS"],
+      "github": "https://github.com/Inhumannn/Project-Home",
+      "link": "https://project-home-brown.vercel.app/"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Front-end",
+      "skills": [
+        { "icon": "FaHtml5", "name": "HTML" },
+        { "icon": "FaCss3Alt", "name": "CSS" },
+        { "icon": "IoLogoJavascript", "name": "JavaScript" },
+        { "icon": "FaReact", "name": "React" },
+        { "icon": "FaWordpress", "name": "WordPress" },
+        { "icon": "FaFigma", "name": "Figma" }
+      ]
+    },
+    {
+      "category": "Back-end",
+      "skills": [
+        { "icon": "FaNodeJs", "name": "Node.js" },
+        { "icon": "FaDatabase", "name": "MySQL" },
+        { "icon": "FaPhp", "name": "PHP" },
+        { "icon": "FaPython", "name": "Python" },
+        { "icon": "GoDatabase", "name": "MongoDB" }
+      ]
+    },
+    {
+      "category": "Outils & DevOps",
+      "skills": [
+        { "icon": "FaGithub", "name": "GitHub" },
+        { "icon": "FaGitAlt", "name": "Git" },
+        { "icon": "FaTerminal", "name": "Terminal" },
+        { "icon": "FaMarkdown", "name": "Markdown" },
+        { "icon": "IoLogoVercel", "name": "Vercel" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "dateTime": "Présent",
+      "title": "Développeur Full Stack Senior",
+      "enterprise": "TechCorp Solutions",
+      "description": "Direction du développement d'applications d'entreprise, gestion d'une équipe de 5 développeurs et mise en œuvre de pratiques de développement modernes",
+      "tags": ["Leadership", "Full Stack", "Entreprise"],
+      "achievements": [
+        "Livraison réussie de 3 projets majeurs dans les délais et le budget",
+        "Amélioration des performances d'application de 40% grâce à l'optimisation du code",
+        "Mentorat des développeurs juniors et établissement de standards de codage"
+      ]
+    },
+    {
+      "dateTime": "2022-2023",
+      "title": "Développeur Full Stack",
+      "enterprise": "WebDev Agency",
+      "description": "Développement d'applications web responsives avec React et Node.js, collaboration avec les équipes de design pour implémenter des interfaces conviviales",
+      "tags": ["React", "Node.js", "UI/UX"],
+      "achievements": [
+        "Construction de 10+ sites web responsives avec des frameworks modernes",
+        "Intégration d'APIs tierces et de systèmes de paiement",
+        "Réduction des temps de chargement de 50% grâce aux techniques d'optimisation"
+      ]
+    },
+    {
+      "dateTime": "2021-2022",
+      "title": "Développeur Frontend",
+      "enterprise": "StartupTech",
+      "description": "Création d'interfaces utilisateur interactives et collaboration avec les développeurs backend pour intégrer les APIs et assurer une expérience utilisateur fluide",
+      "tags": ["JavaScript", "CSS", "Intégration API"],
+      "achievements": [
+        "Développement d'une bibliothèque de composants réutilisables utilisée sur 5 projets",
+        "Implémentation du design responsive avec une approche mobile-first",
+        "Collaboration avec l'équipe UX pour améliorer l'engagement utilisateur de 30%"
+      ]
+    },
+    {
+      "dateTime": "2020-2021",
+      "title": "Développeur Web Junior",
+      "enterprise": "Digital Solutions",
+      "description": "Apprentissage des pratiques modernes de développement web, contribution à divers projets clients, et acquisition d'expérience en technologies frontend et backend",
+      "tags": ["HTML/CSS", "JavaScript", "Apprentissage"],
+      "achievements": [
+        "Réalisation de 15+ sites web clients avec des notes de satisfaction élevées",
+        "Maîtrise du contrôle de version avec Git et des workflows collaboratifs",
+        "Acquisition de compétences dans plusieurs langages de programmation et frameworks"
+      ]
     }
   ]
 }

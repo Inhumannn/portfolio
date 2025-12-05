@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import {
   FaCss3Alt,
   FaDatabase,
@@ -51,14 +51,8 @@ type Category = {
 };
 
 export function SkillTech() {
-  const [data, setData] = useState<Category[]>([]);
-
-  useEffect(() => {
-    fetch("/data/skill&tech.json")
-      .then((res) => res.json())
-      .then((json) => setData(json))
-      .catch((err) => console.error("Erreur JSON:", err));
-  }, []);
+  const { t } = useTranslation();
+  const data = t('skills', { returnObjects: true }) as Category[];
 
   return (
     <>
