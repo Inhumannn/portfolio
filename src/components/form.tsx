@@ -1,6 +1,7 @@
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
 import { useForm } from "react-hook-form";
 import { toast } from "sonner";
 import { z } from "zod";
@@ -20,6 +21,7 @@ import { useTranslation } from "react-i18next";
 
 export function ContactForm() {
   const { t } = useTranslation();
+  const { executeRecaptcha } = useGoogleReCaptcha();
 
   const contactSchema = z.object({
     name: z.string().min(2, { message: t("page-home.form-name-warning") }),
@@ -41,11 +43,18 @@ export function ContactForm() {
   });
 
   const onSubmit = async (data: ContactFormData) => {
+    if (!executeRecaptcha) {
+      toast.error("reCAPTCHA non disponible");
+      return;
+    }
+
     try {
+      const token = await executeRecaptcha('contact_form');
+      
       const response = await fetch('/api/send-email', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
+        body: JSON.stringify({ ...data, recaptchaToken: token }),
       });
       
       if (response.ok) {

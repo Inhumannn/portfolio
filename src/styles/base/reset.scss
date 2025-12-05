@@ -46,3 +46,14 @@ a {
 section {
   min-height: calc(100vh - 60px - 50px);
 }
+
+// Fix Toaster spacing
+[aria-label="Notifications alt+T"] {
+  position: fixed !important;
+  pointer-events: none;
+}
+
+// Hide reCAPTCHA badge
+.grecaptcha-badge {
+  display: none !important;
+}
