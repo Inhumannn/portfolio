@@ -16,7 +16,7 @@ export function App() {
   return (
     <GoogleReCaptchaProvider reCaptchaKey={recaptchaKey}>
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-        <Toaster position="top-right" />
+        <Toaster position="bottom-right" />
         <Routes>
         <Route path="*" element={<Custom404 />} />
         <Route path="/" element={<Home />} />

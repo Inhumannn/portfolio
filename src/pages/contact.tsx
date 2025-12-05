@@ -74,6 +74,25 @@ export function Contact() {
         </div>
       </main>
       <Footer />
+      <div className="recaptcha-notice">
+        Ce site est protégé par reCAPTCHA et les
+        <a
+          href="https://policies.google.com/privacy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Règles de confidentialité
+        </a>
+        et
+        <a
+          href="https://policies.google.com/terms"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Conditions d'utilisation
+        </a>
+        de Google s'appliquent.
+      </div>
     </>
   );
 }

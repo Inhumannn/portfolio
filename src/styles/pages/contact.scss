@@ -65,3 +65,25 @@
     font-size: clamp(14px, 1.5vw, 18px);
   }
 }
+
+.recaptcha-notice {
+  max-width: 1440px;
+  margin: auto;
+  padding: $space-xs;
+  text-align: center;
+  font-family: $font-main;
+  font-size: $fz-p;
+  a {
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      background-color: color-mix(
+        in oklab,
+        oklch(1 0 0 / 15%) 30%,
+        transparent
+      );
+      backdrop-filter: blur(60px);
+    }
+  }
+}
