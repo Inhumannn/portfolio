@@ -45,6 +45,18 @@
     "404p": "La page que vous recherchez n'existe pas ou a été déplacée.",
     "404b": "Retour à l'accueil"
   },
+  "page-experience": {
+    "title": "Expérience",
+    "description": "Une chronologie de mon parcours professionnel et de mes principales réalisations dans l'industrie technologique."
+  },
+  "page-project": {
+    "title": "Mes Derniers Projets",
+    "description": "Une sélection de mes travaux récents présentant différentes technologies et approches pour résoudre des problèmes complexes."
+  },
+  "page-experience": {
+    "title": "Expérience",
+    "description": "Une chronologie de mon parcours professionnel et de mes principales réalisations dans l'industrie technologique."
+  },
   "project": [
     {
       "image": "/img/project1.webp",

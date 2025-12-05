@@ -34,6 +34,10 @@
     "form-email-warning": "Invalid email address.",
     "form-message-warning": "The message is too short."
   },
+  "page-experience": {
+    "title": "Experience",
+    "description": "A timeline of my professional journey and key achievements in the tech industry."
+  },
   "page-about": {
     "about": "About Me",
     "description1": "Currently training in web development, I specialize in creating modern websites and web applications. I am proficient in front-end technologies such as HTML, CSS, JavaScript, and React, and have solid back-end experience with PHP, Python, and NodeJS.",
@@ -44,6 +48,10 @@
     "404": "Page Not Found",
     "404p": "The page you're looking for doesn't exist or has been moved.",
     "404b": "Back To Home"
+  },
+  "page-project": {
+    "title": "My Last Project",
+    "description": "A selection of my recent work showcasing different technologies and approaches to solving complex problems."
   },
   "project": [
     {

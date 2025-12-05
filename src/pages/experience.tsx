@@ -2,8 +2,11 @@ import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { TimeLine } from "@/components/time-line";
+import { useTranslation } from "react-i18next";
 
 export function Experience() {
+  const { t } = useTranslation();
+  
   return (
     <>
       <div id="header-ancre"></div>
@@ -15,11 +18,8 @@ export function Experience() {
           </div>
           <section className="z-10 about">
             <div>
-              <h2>Experience</h2>
-              <p>
-                A timeline of my professional journey and key achievements in
-                the tech industry.
-              </p>
+              <h2>{t("page-experience.title")}</h2>
+              <p>{t("page-experience.description")}</p>
             </div>
             <div className="timeline">
               <TimeLine />

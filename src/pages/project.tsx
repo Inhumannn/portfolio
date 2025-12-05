@@ -2,8 +2,11 @@ import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { ProjectsCards } from "@/components/projects-cards";
+import { useTranslation } from "react-i18next";
 
 export function Project() {
+  const { t } = useTranslation();
+  
   return (
     <>
       <div id="header-ancre"></div>
@@ -15,11 +18,8 @@ export function Project() {
           </div>
           <section className="relative z-10">
             <div>
-              <h2>My Last Project</h2>
-              <p>
-                A selection of my recent work showcasing different technologies
-                and approaches to solving complex problems.
-              </p>
+              <h2>{t("page-project.title")}</h2>
+              <p>{t("page-project.description")}</p>
             </div>
             <div>
               <ProjectsCards />
