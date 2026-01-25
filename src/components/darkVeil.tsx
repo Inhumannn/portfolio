@@ -57,10 +57,17 @@ vec4 cppn_fn(vec2 coordinate,float in0,float in1,float in2){
 }
 
 void mainImage(out vec4 fragColor,in vec2 fragCoord){
-    vec2 uv=fragCoord/uResolution.xy*2.-1.;
-    uv.y*=-1.;
-    uv+=uWarp*vec2(sin(uv.y*6.283+uTime*0.5),cos(uv.x*6.283+uTime*0.5))*0.05;
-    fragColor=cppn_fn(uv,0.1*sin(0.3*uTime),0.1*sin(0.69*uTime),0.1*sin(0.44*uTime));
+    // Standard centering with aspect ratio correction
+    vec2 uv = (fragCoord - 0.5 * uResolution.xy) / uResolution.y;
+    uv *= 1.5; // Zoom in to avoid seeing tiling edges
+    
+    // Shift pattern slightly up from bottom
+    uv.y -= 0.8;
+
+    // Apply Warp
+    uv += uWarp * vec2(sin(uv.y * 6.283 + uTime * 0.5), cos(uv.x * 6.283 + uTime * 0.5)) * 0.05;
+    
+    fragColor = cppn_fn(uv, 0.1 * sin(0.3 * uTime), 0.1 * sin(0.69 * uTime), 0.1 * sin(0.44 * uTime));
 }
 
 void main(){
@@ -83,7 +90,7 @@ type Props = {
   resolutionScale?: number;
 };
 
-export default function ({
+export default function DarkVeil({
   hueShift = 0,
   noiseIntensity = 0,
   scanlineIntensity = 0,
@@ -98,7 +105,7 @@ export default function ({
     const parent = canvas.parentElement as HTMLElement;
 
     const renderer = new Renderer({
-      dpr: Math.min(window.devicePixelRatio, 2),
+      dpr: 1, // Performance optimization
       canvas,
     });
 
