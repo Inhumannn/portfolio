@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-type Experience = {
+type Timeline = {
   dateTime: string;
   title: string;
   enterprise: string;
@@ -11,26 +11,26 @@ type Experience = {
 
 export function TimeLine() {
   const { t } = useTranslation();
-  const experiences = t('experience', { returnObjects: true }) as Experience[];
-  
-  if (!Array.isArray(experiences)) {
+  const timelines = t("timeline", { returnObjects: true }) as Timeline[];
+
+  if (!Array.isArray(timelines)) {
     return null;
   }
-  
+
   return (
     <>
-      {experiences.map((experience, index) => (
+      {timelines.map((timeline, index) => (
         <div key={index}>
           <div className="timeline-box">
             <div className="timeline-date">
-              <p>{experience.dateTime}</p>
+              <p>{timeline.dateTime}</p>
             </div>
             <div className="timeline-content">
-              <h3>{experience.title}</h3>
-              <h4>{experience.enterprise}</h4>
-              <p>{experience.description}</p>
+              <h3>{timeline.title}</h3>
+              <h4>{timeline.enterprise}</h4>
+              <p>{timeline.description}</p>
               <div className="timeline-tags">
-                {experience.tags.map((tag, i) => (
+                {timeline.tags.map((tag, i) => (
                   <p key={i}>{tag}</p>
                 ))}
               </div>
@@ -38,7 +38,7 @@ export function TimeLine() {
           </div>
           <div className="timeline-achievements">
             <ul className="timeline-achievement">
-              {experience.achievements.map((ach, j) => (
+              {timeline.achievements.map((ach, j) => (
                 <li key={j}>{ach}</li>
               ))}
             </ul>

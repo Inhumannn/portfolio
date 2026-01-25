@@ -36,9 +36,9 @@
   },
   "page-about": {
     "about": "À propos de moi",
-    "description1": "Actuellement en formation en développement web, je me spécialise dans la création de sites internet et d'applications web modernes. Je maîtrise les technologies front-end telles que HTML, CSS, JavaScript et React, et possède une solide expérience back-end avec PHP, Python et NodeJS.",
-    "description2": "J'utilise également des outils comme Git et GitHub pour la gestion de version, et je suis à l'aise avec WordPress pour le développement de sites personnalisés. J'ai acquis des compétences pratiques dans la création de sites e-commerce et je suis capable de développer des solutions sur mesure adaptées aux besoins spécifiques des projets.",
-    "description3": "Grâce à ma capacité d'apprentissage rapide et ma passion pour le développement web, je suis toujours à la recherche de nouveaux défis pour progresser !"
+    "description1": "Admis en Bachelor 3 Informatique au sein d'Ynov, je forge mon expertise avec l'objectif de valider un titre d'Expert (Bac+5). Passionné par l'écosystème Fullstack, je combine aujourd'hui les fondamentaux de mon titre professionnel DWWM avec une vision moderne et innovante du développement web.",
+    "description2": "Spécialisé dans l'écosystème React, TypeScript et Node.js, je maîtrise l'intégralité du cycle de vie d'une application. Mon expérience chez StoryCom m'a permis de piloter des projets de A à Z : de la conception UI/UX à l'architecture d'API REST sécurisées, incluant la gestion de bases de données et le déploiement sur des environnements Cloud (Vercel, Render), le tout orchestré par des méthodologies Agiles rigoureuses.",
+    "description3": "Actuellement à la recherche d'une alternance pour 2026/2027 sur un rythme de 1 semaine en formation et 3 semaines en entreprise, je suis prêt à m'investir sur le long terme. Mon autonomie, ma réactivité et ma soif de défis sont mes meilleurs atouts pour contribuer activement à la réussite de vos projets numériques."
   },
   "notfound": {
     "404": "Page non trouvée",
@@ -52,10 +52,6 @@
   "page-project": {
     "title": "Mes Derniers Projets",
     "description": "Une sélection de mes travaux récents présentant différentes technologies et approches pour résoudre des problèmes complexes."
-  },
-  "page-experience": {
-    "title": "Expérience",
-    "description": "Une chronologie de mon parcours professionnel et de mes principales réalisations dans l'industrie technologique."
   },
   "project": [
     {
@@ -164,53 +160,56 @@
       ]
     }
   ],
-  "experience": [
+  "timeline": [
     {
-      "dateTime": "Présent",
-      "title": "Développeur Full Stack Senior",
-      "enterprise": "TechCorp Solutions",
-      "description": "Direction du développement d'applications d'entreprise, gestion d'une équipe de 5 développeurs et mise en œuvre de pratiques de développement modernes",
-      "tags": ["Leadership", "Full Stack", "Entreprise"],
+      "dateTime": "Sept. 2026",
+      "title": "Recherche d'Alternance (Bachelor)",
+      "enterprise": "Ynov Campus",
+      "description": "Admis en formation supérieur, je recherche une alternance pour consolider mes acquis et me spécialiser. Passionné et opérationnel, je souhaite m'investir dans des projets concrets.",
+      "tags": ["Contrat d'Apprentissage", "Full Stack", "Disponible"],
       "achievements": [
-        "Livraison réussie de 3 projets majeurs dans les délais et le budget",
-        "Amélioration des performances d'application de 40% grâce à l'optimisation du code",
-        "Mentorat des développeurs juniors et établissement de standards de codage"
+        "Rythme : 1 semaine en formation / 3 semaines en entreprise",
+        "Disponibilité : septembre 2026",
+        "Objectif : Mettre à profit mes compétences au sein d'une entreprise"
       ]
     },
     {
-      "dateTime": "2022-2023",
-      "title": "Développeur Full Stack",
-      "enterprise": "WebDev Agency",
-      "description": "Développement d'applications web responsives avec React et Node.js, collaboration avec les équipes de design pour implémenter des interfaces conviviales",
-      "tags": ["React", "Node.js", "UI/UX"],
+      "dateTime": "avr. 2025 – janv. 2026",
+      "title": "Développeur Web et Web Mobile",
+      "enterprise": "La Plateforme",
+      "description": "Formation certifiante de niveau 5 axée sur le développement d'applications web et mobiles complètes. Maîtrise du cycle de vie logiciel, du front-end au back-end, incluant bases de données et déploiement.",
+      "tags": ["Full Stack", "React & Node.js", "Applications Web"],
       "achievements": [
-        "Construction de 10+ sites web responsives avec des frameworks modernes",
-        "Intégration d'APIs tierces et de systèmes de paiement",
-        "Réduction des temps de chargement de 50% grâce aux techniques d'optimisation"
+        "Développement Front-end Dynamique",
+        "Architecture Back-end & API",
+        "Gestion de Bases de Données",
+        "Workflow Collaboratif & Versioning",
+        "Conception UX/UI & Maquettage"
       ]
     },
     {
-      "dateTime": "2021-2022",
-      "title": "Développeur Frontend",
-      "enterprise": "StartupTech",
-      "description": "Création d'interfaces utilisateur interactives et collaboration avec les développeurs backend pour intégrer les APIs et assurer une expérience utilisateur fluide",
-      "tags": ["JavaScript", "CSS", "Intégration API"],
+      "dateTime": "déc. 2024 – avr. 2025",
+      "title": "Langage Informatique à la carte",
+      "enterprise": "La Plateforme",
+      "description": "Formation intensive focalisée sur la création d'interfaces utilisateur modernes et réactives. Apprentissage approfondi de l'écosystème JavaScript, de l'accessibilité et des bonnes pratiques d'intégration web.",
+      "tags": ["Intégration Web", "React/JavaScript", "UI/UX"],
       "achievements": [
-        "Développement d'une bibliothèque de composants réutilisables utilisée sur 5 projets",
-        "Implémentation du design responsive avec une approche mobile-first",
-        "Collaboration avec l'équipe UX pour améliorer l'engagement utilisateur de 30%"
+        "Algorithmique & Logique de Programmation",
+        "Maîtrise de la Programmation Orientée Objet",
+        "Polyvalence Multilangages",
+        "Gestion de Données & Persistance"
       ]
     },
     {
-      "dateTime": "2020-2021",
-      "title": "Développeur Web Junior",
-      "enterprise": "Digital Solutions",
-      "description": "Apprentissage des pratiques modernes de développement web, contribution à divers projets clients, et acquisition d'expérience en technologies frontend et backend",
-      "tags": ["HTML/CSS", "JavaScript", "Apprentissage"],
+      "dateTime": "sept. 2022 – juin 2024",
+      "title": "Classes Préparatoires (CPGE)",
+      "enterprise": "Lycée Vauvenargues",
+      "description": "Cursus scientifique intensif de deux ans préparant aux Grandes Écoles d'Ingénieurs. Formation rigoureuse en mathématiques, physique et sciences de l'ingénieur, développant des capacités d'analyse et d'abstraction élevées.",
+      "tags": ["Rigueur Académique", "SIN"],
       "achievements": [
-        "Réalisation de 15+ sites web clients avec des notes de satisfaction élevées",
-        "Maîtrise du contrôle de version avec Git et des workflows collaboratifs",
-        "Acquisition de compétences dans plusieurs langages de programmation et frameworks"
+        "Gestion de Projet & Travail Collaboratif",
+        "Maîtrise des Normes et Standards Techniques",
+        "Communication et Soutenance Technique"
       ]
     }
   ]

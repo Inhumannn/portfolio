@@ -4,7 +4,10 @@ import { useTranslation } from "react-i18next";
 export function CvButton() {
   const { t } = useTranslation();
   return (
-    <a href="/cv.pdf" download="CV.pdf">
+    <a
+      href="/CV_Thomas_PENA-BERMOND_Dev_Fullstack.pdf"
+      download="CV_Thomas_PENA-BERMOND_Dev_Fullstack.pdf"
+    >
       <Button
         variant="outline"
         style={{

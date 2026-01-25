@@ -24,13 +24,6 @@ export function About() {
               <p>{t("page-about.description3")}</p>
               <div className="icone">
                 <a
-                  href="https://laplateforme.io/prf-var-devweb/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <School />
-                </a>
-                <a
                   href="https://www.linkedin.com/in/thomas-pena-bermond/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -43,6 +36,13 @@ export function About() {
                   rel="noopener noreferrer"
                 >
                   <Github />
+                </a>
+                <a
+                  href="https://www.ynov.com/campus/aix-en-provence"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <School />
                 </a>
               </div>
             </div>

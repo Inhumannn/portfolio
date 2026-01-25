@@ -40,9 +40,9 @@
   },
   "page-about": {
     "about": "About Me",
-    "description1": "Currently training in web development, I specialize in creating modern websites and web applications. I am proficient in front-end technologies such as HTML, CSS, JavaScript, and React, and have solid back-end experience with PHP, Python, and NodeJS.",
-    "description2": "I also work with tools such as Git and GitHub for code versioning, and am familiar with WordPress for custom website development. I have acquired practical skills in creating e-commerce websites and am able to develop customized solutions tailored to the specific needs of projects.",
-    "description3": "Thanks to my ability to learn quickly and my passion for web development, I am always looking for new challenges to improve myself!"
+    "description1": "Admitted to the Bachelor 3 Computer Science program at Ynov, I am building my expertise with the goal of achieving an Expert title (Master's level). Passionate about the Fullstack ecosystem, I currently combine the fundamentals of my DWWM certification with a modern and innovative vision of web development.",
+    "description2": "Specializing in the React, TypeScript, and Node.js ecosystem, I master the entire application lifecycle. My experience at StoryCom enabled me to lead projects from start to finish: from UI/UX design to secure REST API architecture, including database management and cloud deployment (Vercel, Render), orchestrated through rigorous Agile methodologies.",
+    "description3": "Currently seeking a work-study position for 2026/2027 (1 week training / 3 weeks in company), I am ready for a long-term commitment. My autonomy, responsiveness, and drive for challenges are my key assets to actively contribute to your digital projects' success."
   },
   "notfound": {
     "404": "Page Not Found",
@@ -160,53 +160,56 @@
       ]
     }
   ],
-  "experience": [
+  "timeline": [
     {
-      "dateTime": "Present",
-      "title": "Senior Full Stack Developer",
-      "enterprise": "TechCorp Solutions",
-      "description": "Led the development of enterprise level applications, managing a team of 5 developers and implementing modern development practices",
-      "tags": ["Team Leadership", "Full Stack", "Enterprise"],
+      "dateTime": "Sept. 2026",
+      "title": "Apprenticeship Search (Bachelor)",
+      "enterprise": "Ynov Campus",
+      "description": "Admitted to higher education, I am looking for a work-study program to consolidate my skills and specialize. Passionate and operational, I wish to invest myself in concrete projects.",
+      "tags": ["Apprenticeship Contract", "Full Stack", "Available"],
       "achievements": [
-        "Successfully delivered 3 major projects on time and under budget",
-        "Improved application performance by 40% through code optimization",
-        "Mentored junior developers and established coding standards"
+        "Rhythm: 1 week training / 3 weeks in company",
+        "Availability: September 2026",
+        "Goal: Leverage my skills within a company"
       ]
     },
     {
-      "dateTime": "2022-2023",
-      "title": "Full Stack Developer",
-      "enterprise": "WebDev Agency",
-      "description": "Developed responsive web applications using React and Node.js, collaborated with design teams to implement user-friendly interfaces",
-      "tags": ["React", "Node.js", "UI/UX"],
+      "dateTime": "Apr. 2025 – Jan. 2026",
+      "title": "Web and Mobile Web Developer",
+      "enterprise": "La Plateforme",
+      "description": "Level 5 certification training focused on comprehensive web and mobile application development. Mastery of the software lifecycle, from front-end to back-end, including databases and deployment.",
+      "tags": ["Full Stack", "React & Node.js", "Web Applications"],
       "achievements": [
-        "Built 10+ responsive websites with modern frameworks",
-        "Integrated third-party APIs and payment systems",
-        "Reduced loading times by 50% through optimization techniques"
+        "Dynamic Front-end Development",
+        "Back-end Architecture & API",
+        "Database Management",
+        "Collaborative Workflow & Versioning",
+        "UX/UI Design & Prototyping"
       ]
     },
     {
-      "dateTime": "2021-2022",
-      "title": "Frontend Developer",
-      "enterprise": "StartupTech",
-      "description": "Created interactive user interfaces and collaborated with backend developers to integrate APIs and ensure seamless user experience",
-      "tags": ["JavaScript", "CSS", "API Integration"],
+      "dateTime": "Dec. 2024 – Apr. 2025",
+      "title": "Specialized Programming Modules",
+      "enterprise": "La Plateforme",
+      "description": "Intensive training focused on creating modern and responsive user interfaces. In-depth learning of the JavaScript ecosystem, accessibility, and web integration best practices.",
+      "tags": ["Web Integration", "React/JavaScript", "UI/UX"],
       "achievements": [
-        "Developed reusable component library used across 5 projects",
-        "Implemented responsive design for mobile-first approach",
-        "Collaborated with UX team to improve user engagement by 30%"
+        "Algorithmics & Programming Logic",
+        "Object-Oriented Programming Mastery",
+        "Multi-language Versatility",
+        "Data Management & Persistence"
       ]
     },
     {
-      "dateTime": "2020-2021",
-      "title": "Junior Web Developer",
-      "enterprise": "Digital Solutions",
-      "description": "Learned modern web development practices, contributed to various client projects, and gained experience in both frontend and backend technologies",
-      "tags": ["HTML/CSS", "JavaScript", "Learning"],
+      "dateTime": "Sept. 2022 – June 2024",
+      "title": "Preparatory Classes (CPGE)",
+      "enterprise": "Lycée Vauvenargues",
+      "description": "Two-year intensive scientific curriculum preparing for French Engineering Schools. Rigorous training in mathematics, physics, and engineering sciences, developing high analytical and abstraction capabilities.",
+      "tags": ["Academic Rigor", "Engineering Sciences"],
       "achievements": [
-        "Completed 15+ client websites with high satisfaction ratings",
-        "Mastered version control with Git and collaborative workflows",
-        "Gained proficiency in multiple programming languages and frameworks"
+        "Project Management & Collaborative Work",
+        "Mastery of Technical Norms and Standards",
+        "Communication and Technical Defense"
       ]
     }
   ]
