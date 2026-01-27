@@ -17,8 +17,16 @@
 
     .back-btn {
       margin-bottom: 30px;
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+
       a {
         color: #cecece;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
         &:hover {
           color: white;
         }

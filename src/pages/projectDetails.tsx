@@ -3,9 +3,9 @@ import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github } from "lucide-react";
+import { ArrowLeft, ExternalLink, Github } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { Navigate, useParams } from "react-router-dom";
+import { Link, Navigate, useParams } from "react-router-dom";
 
 type Project = {
   id: string;
@@ -38,6 +38,15 @@ export function ProjectDetails() {
         </div>
 
         <section className="detail-container">
+          <div className="back-btn">
+            <Button asChild variant="ghost">
+              <Link to="/projects" className="flex items-center gap-2">
+                <ArrowLeft size={16} />
+                {t("page-project.title") || "Retour"}
+              </Link>
+            </Button>
+          </div>
+
           <div className="content">
             <div className="image-container">
               <img src={project.image} alt={project.title} />
