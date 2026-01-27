@@ -1,4 +1,4 @@
-@import "../base/variables.scss";
+@use "./variables" as *;
 html {
   scroll-behavior: smooth !important;
 }

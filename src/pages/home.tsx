@@ -1,10 +1,10 @@
 import { CodeBlock } from "@/components/codeblock";
-import { CvButton } from "@/components/cv-button";
+import { CvButton } from "@/components/cvButton";
 import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
-import { ProjectsCards } from "@/components/projects-cards";
-import { SkillTech } from "@/components/skill&tech";
+import { ProjectsCards } from "@/components/projectsCards";
+import { SkillTech } from "@/components/skillTech";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
@@ -28,9 +28,9 @@ export function Home() {
               </h1>
               <p>{t("page-home.title-description")}</p>
               <div>
-                <Link to="/about">
-                  <Button variant="default">{t("page-home.aboutme")}</Button>
-                </Link>
+                <Button asChild variant="default">
+                  <Link to="/about">{t("page-home.aboutme")}</Link>
+                </Button>
                 <CvButton />
               </div>
             </div>
@@ -42,7 +42,7 @@ export function Home() {
         <section className="project">
           <div>
             <h2>{t("page-home.title2")}</h2>
-            <p style={{ whiteSpace: "pre-line" }}>
+            <p className="whitespace-pre-line">
               {t("page-home.title2-description")}.
             </p>
           </div>
@@ -50,15 +50,15 @@ export function Home() {
             <ProjectsCards limit={3} />
           </div>
           <div>
-            <Link to="/project">
-              <Button>{t("page-home.seemore")}</Button>
-            </Link>
+            <Button asChild>
+              <Link to="/project">{t("page-home.seemore")}</Link>
+            </Button>
           </div>
         </section>
         <section className="skill">
           <div>
             <h2>{t("page-home.title3")}</h2>
-            <p style={{ whiteSpace: "pre-line" }}>
+            <p className="whitespace-pre-line">
               {t("page-home.title3-description")}
             </p>
           </div>

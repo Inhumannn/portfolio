@@ -1,8 +1,11 @@
 import { Badge } from "@/components/ui/badge";
+import { slugify } from "@/utils/slugify";
 import { ExternalLink, Github } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 type Project = {
+  id: string;
   title: string;
   description: string;
   skills: string[];
@@ -17,13 +20,20 @@ type ProjectsCardsProps = {
 
 export function ProjectsCards({ limit }: ProjectsCardsProps) {
   const { t } = useTranslation();
-  const projects = t('project', { returnObjects: true }) as Project[];
+  const navigate = useNavigate();
+  const projects = t("project", { returnObjects: true }) as Project[];
   const displayProjects = limit ? projects.slice(-limit) : projects;
 
   return (
     <>
       {displayProjects.map((project, index) => (
-        <article key={index}>
+        <article
+          key={project.id || index}
+          className="relative cursor-pointer group"
+          onClick={() =>
+            navigate(`/${slugify(t("app.project"))}/${project.id}`)
+          }
+        >
           <img src={project.image} alt={project.title} loading="lazy" />
           <div>
             <h3>{project.title} </h3>
@@ -35,11 +45,18 @@ export function ProjectsCards({ limit }: ProjectsCardsProps) {
                 </Badge>
               ))}
             </div>
-            <div>
-              <a href={project.github} target="_blank">
+            <div
+              className="flex gap-2 relative z-10"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Github />
               </a>
-              <a href={project.link} target="_blank">
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <ExternalLink />
               </a>
             </div>

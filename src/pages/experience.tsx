@@ -1,7 +1,7 @@
 import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
-import { TimeLine } from "@/components/time-line";
+import { TimeLine } from "@/components/timeLine";
 import { useTranslation } from "react-i18next";
 
 export function Experience() {

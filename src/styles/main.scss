@@ -1,18 +1,18 @@
-@import "base/variables";
-@import "base/reset";
+@forward "base/variables";
+@forward "base/reset";
 
-@import "layout/header";
-@import "layout/footer";
+@forward "layout/header";
+@forward "layout/footer";
 
-@import "components/buttons";
-@import "components/codeblock";
-@import "components/projects-cards";
-@import "components/skill&tech";
+@forward "components/buttons";
+@forward "components/codeBlock";
+@forward "components/projectsCards";
+@forward "components/skillTech";
 
-@import "pages/404";
-@import "pages/about";
-@import "pages/contact";
-@import "pages/details";
-@import "pages/experience";
-@import "pages/home";
-@import "pages/project";
+@forward "pages/404";
+@forward "pages/about";
+@forward "pages/contact";
+@forward "pages/experience";
+@forward "pages/home";
+@forward "pages/project";
+@forward "pages/projectDetails";

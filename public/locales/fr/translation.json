@@ -1,4 +1,12 @@
 {
+  "app": {
+    "about": "À propos",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "project": "Projet",
+    "contacts": "Contacts",
+    "404": "404"
+  },
   "header": {
     "about": "À propos",
     "experience": "Expérience",
@@ -55,6 +63,7 @@
   },
   "project": [
     {
+      "id": "projet-accueil",
       "image": "/img/project1.webp",
       "title": "Projet Accueil",
       "description": "Une collection de pages d'accueil.",
@@ -63,66 +72,20 @@
       "link": "https://project-home-brown.vercel.app/"
     },
     {
-      "image": "/img/project1.webp",
-      "title": "Projet Accueil",
-      "description": "Une collection de pages d'accueil.",
-      "skills": ["HTML", "CSS"],
-      "github": "https://github.com/Inhumannn/Project-Home",
-      "link": "https://project-home-brown.vercel.app/"
-    },
-    {
-      "image": "/img/project1.webp",
-      "title": "Projet Accueil",
-      "description": "Une collection de pages d'accueil.",
-      "skills": ["HTML", "CSS"],
-      "github": "https://github.com/Inhumannn/Project-Home",
-      "link": "https://project-home-brown.vercel.app/"
-    },
-    {
+      "id": "projet-react",
       "image": "/img/project2.webp",
-      "title": "Projet Accueil",
-      "description": "Une collection de pages d'accueil.",
-      "skills": ["HTML", "CSS"],
+      "title": "Projet React",
+      "description": "Une application React dynamique.",
+      "skills": ["React", "Tailwind"],
       "github": "https://github.com/Inhumannn/Project-Home",
       "link": "https://project-home-brown.vercel.app/"
     },
     {
-      "image": "/img/project2.webp",
-      "title": "Projet Accueil",
-      "description": "Une collection de pages d'accueil.",
-      "skills": ["HTML", "CSS"],
-      "github": "https://github.com/Inhumannn/Project-Home",
-      "link": "https://project-home-brown.vercel.app/"
-    },
-    {
-      "image": "/img/project2.webp",
-      "title": "Projet Accueil",
-      "description": "Une collection de pages d'accueil.",
-      "skills": ["HTML", "CSS"],
-      "github": "https://github.com/Inhumannn/Project-Home",
-      "link": "https://project-home-brown.vercel.app/"
-    },
-    {
+      "id": "projet-fullstack",
       "image": "/img/project3.webp",
-      "title": "Projet Accueil",
-      "description": "Une collection de pages d'accueil.",
-      "skills": ["HTML", "CSS"],
-      "github": "https://github.com/Inhumannn/Project-Home",
-      "link": "https://project-home-brown.vercel.app/"
-    },
-    {
-      "image": "/img/project3.webp",
-      "title": "Projet Accueil",
-      "description": "Une collection de pages d'accueil.",
-      "skills": ["HTML", "CSS"],
-      "github": "https://github.com/Inhumannn/Project-Home",
-      "link": "https://project-home-brown.vercel.app/"
-    },
-    {
-      "image": "/img/project3.webp",
-      "title": "Projet Accueil",
-      "description": "Une collection de pages d'accueil.",
-      "skills": ["HTML", "CSS"],
+      "title": "Projet Fullstack",
+      "description": "Application complète avec Backend.",
+      "skills": ["Node.js", "MongoDB"],
       "github": "https://github.com/Inhumannn/Project-Home",
       "link": "https://project-home-brown.vercel.app/"
     }

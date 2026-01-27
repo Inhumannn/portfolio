@@ -1,12 +1,12 @@
 import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
-import { ProjectsCards } from "@/components/projects-cards";
+import { ProjectsCards } from "@/components/projectsCards";
 import { useTranslation } from "react-i18next";
 
-export function Project() {
+export function Projects() {
   const { t } = useTranslation();
-  
+
   return (
     <>
       <div id="header-ancre"></div>
