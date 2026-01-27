@@ -1,4 +1,5 @@
 import DotGrid from "@/components/dotGrid"; // Assure-toi que ce chemin est correct
+import { SEO } from "@/components/seo";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
@@ -8,6 +9,7 @@ export function Custom404() {
 
   return (
     <main id="notfound">
+      <SEO title="404 - Page not found" noIndex={true} />
       <div
         style={{
           position: "relative",

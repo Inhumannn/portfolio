@@ -2,6 +2,7 @@ import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { ContactForm } from "@/components/form";
 import { Header } from "@/components/header";
+import { SEO } from "@/components/seo";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
@@ -9,6 +10,10 @@ export function Contact() {
   const { t } = useTranslation();
   return (
     <>
+      <SEO
+        title={t("app.contacts")}
+        description={t("page-home.title4-description")}
+      />
       <div id="header-ancre"></div>
       <Header />
       <main id="contact" className="w-full overflow-hidden">

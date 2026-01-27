@@ -1,6 +1,7 @@
 import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { SEO } from "@/components/seo";
 import { Github, Linkedin, School } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
@@ -9,6 +10,7 @@ export function About() {
 
   return (
     <>
+      <SEO title={t("app.about")} description={t("page-about.description1")} />
       <div id="header-ancre"></div>
       <Header />
       <main id="aboutme" className="w-full overflow-hidden">

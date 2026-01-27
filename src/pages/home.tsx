@@ -4,6 +4,7 @@ import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { ProjectsCards } from "@/components/projectsCards";
+import { SEO } from "@/components/seo";
 import { SkillTech } from "@/components/skillTech";
 import { Button } from "@/components/ui/button";
 import { slugify } from "@/utils/slugify";
@@ -14,6 +15,10 @@ export function Home() {
   const { t } = useTranslation();
   return (
     <>
+      <SEO
+        title="Thomas Pena-Bermond"
+        description={t("page-home.title-description")}
+      />
       <div id="header-ancre"></div>
       <Header />
       <main id="home">

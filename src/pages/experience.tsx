@@ -1,15 +1,17 @@
 import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { SEO } from "@/components/seo";
 import { TimeLine } from "@/components/timeLine";
 import { useTranslation } from "react-i18next";
 
 export function Experience() {
   const { t } = useTranslation();
-  
+
   return (
     <>
       <div id="header-ancre"></div>
+      <SEO title="Expériences" description="Mes expériences" />
       <Header />
       <main id="experience" className="w-full overflow-hidden">
         <div className="w-full h-full">

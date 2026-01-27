@@ -1,3 +1,4 @@
+import { Analytics } from "@/components/analytics";
 import { slugify } from "@/utils/slugify";
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
 import { useTranslation } from "react-i18next";
@@ -27,6 +28,7 @@ export function App() {
     <GoogleReCaptchaProvider reCaptchaKey={recaptchaKey}>
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
         <Toaster position="bottom-right" />
+        <Analytics />
         <Routes>
           <Route path="/" element={<Home />} />
 

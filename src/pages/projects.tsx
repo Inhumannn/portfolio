@@ -2,6 +2,7 @@ import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { ProjectsCards } from "@/components/projectsCards";
+import { SEO } from "@/components/seo";
 import { useTranslation } from "react-i18next";
 
 export function Projects() {
@@ -9,6 +10,11 @@ export function Projects() {
 
   return (
     <>
+      <SEO
+        title={t("app.projects")}
+        description={t("page-project.description")}
+        url="/projects"
+      />
       <div id="header-ancre"></div>
       <Header />
       <main id="projects" className="relative w-full overflow-hidden">

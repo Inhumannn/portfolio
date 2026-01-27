@@ -1,6 +1,7 @@
 import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { SEO } from "@/components/seo";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, ExternalLink, Github } from "lucide-react";
@@ -30,6 +31,12 @@ export function ProjectDetails() {
 
   return (
     <>
+      <SEO
+        title={project.title}
+        description={project.description}
+        image={project.image}
+        url={`/project/${project.id}`}
+      />
       <div id="header-ancre"></div>
       <Header />
       <main id="projectDetails">
