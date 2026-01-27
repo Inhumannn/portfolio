@@ -95,6 +95,7 @@ export function ProjectDetails() {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={`GitHub - ${project.title}`}
                   >
                     <Github className="mr-2 h-4 w-4" />
                     GitHub
@@ -105,6 +106,7 @@ export function ProjectDetails() {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={`Live Demo - ${project.title}`}
                   >
                     <ExternalLink className="mr-2 h-4 w-4" />
                     Live Demo

@@ -14,7 +14,8 @@
     "contacts": "Contacts"
   },
   "footer": {
-    "d": "© 2025 Thomas PENA--BERMOND. Tous droits réservés."
+    "d": "© 2025 Thomas PENA--BERMOND. Tous droits réservés.",
+    "scroll-top": "Haut de page"
   },
   "page-home": {
     "title": "Accueil",

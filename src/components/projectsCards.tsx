@@ -46,17 +46,23 @@ export function ProjectsCards({ limit }: ProjectsCardsProps) {
               ))}
             </div>
             <div
-              className="flex gap-2 relative z-10"
+              className="flex gap-4 relative z-10"
               onClick={(e) => e.stopPropagation()}
             >
               <a
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label={`GitHub - ${project.title}`}
               >
                 <Github />
               </a>
-              <a href={project.link} target="_blank" rel="noopener noreferrer">
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Live Demo - ${project.title}`}
+              >
                 <ExternalLink />
               </a>
             </div>

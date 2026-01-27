@@ -7,6 +7,7 @@ export function CvButton() {
     <a
       href="/cv_thomas_pena-bermond_dwwm.pdf"
       download="cv_thomas_pena-bermond_dwwm.pdf"
+      aria-label={t("page-home.button-cv")}
     >
       <Button
         variant="outline"

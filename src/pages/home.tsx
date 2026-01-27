@@ -23,7 +23,7 @@ export function Home() {
       <SchemaOrg
         schema={{
           "@type": "Person",
-          name: "Thomas Pena-Bermond",
+          name: "Thomas Pena Bermond",
           jobTitle: "Développeur Full Stack",
           url: "https://thmsfolio.vercel.app",
           sameAs: [

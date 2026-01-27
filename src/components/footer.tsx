@@ -10,7 +10,11 @@ export function Footer() {
       <hr />
       <footer>
         <Link to="#">{t("footer.d")}</Link>
-        <HashLink smooth to="#header-ancre">
+        <HashLink
+          smooth
+          to="#header-ancre"
+          aria-label={t("footer.scroll-top")}
+        >
           <ArrowUp />
         </HashLink>
       </footer>

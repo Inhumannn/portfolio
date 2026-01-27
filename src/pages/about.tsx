@@ -29,6 +29,7 @@ export function About() {
                   href="https://www.linkedin.com/in/thomas-pena-bermond/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="LinkedIn Profile"
                 >
                   <Linkedin />
                 </a>
@@ -36,6 +37,7 @@ export function About() {
                   href="https://github.com/Inhumannn"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="GitHub Profile"
                 >
                   <Github />
                 </a>
@@ -43,6 +45,7 @@ export function About() {
                   href="https://www.ynov.com/campus/aix-en-provence"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Ynov Campus Aix-en-Provence"
                 >
                   <School />
                 </a>
