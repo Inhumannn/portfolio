@@ -1,8 +1,8 @@
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
-import ReactGA from 'react-ga4';
+import { useEffect } from "react";
+import ReactGA from "react-ga4";
+import { useLocation } from "react-router-dom";
 
-const GA_MEASUREMENT_ID = "G-6CKF9CTE01"; 
+const GA_MEASUREMENT_ID = "G-6CKF9CTE01";
 
 export function Analytics() {
   const location = useLocation();
@@ -12,9 +12,9 @@ export function Analytics() {
       window.GA_INITIALIZED = true;
     }
 
-    ReactGA.send({ 
-      hitType: "pageview", 
-      page: location.pathname + location.search 
+    ReactGA.send({
+      hitType: "pageview",
+      page: location.pathname + location.search,
     });
   }, [location]);
 

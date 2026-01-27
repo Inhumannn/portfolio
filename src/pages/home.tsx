@@ -16,7 +16,7 @@ export function Home() {
   return (
     <>
       <SEO
-        title="Thomas Pena-Bermond"
+        title={t("page-home.title")}
         description={t("page-home.title-description")}
       />
       <div id="header-ancre"></div>

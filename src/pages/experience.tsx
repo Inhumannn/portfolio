@@ -11,7 +11,7 @@ export function Experience() {
   return (
     <>
       <div id="header-ancre"></div>
-      <SEO title="Expériences" description="Mes expériences" />
+      <SEO title={t("page-experience.title")} description={t("page-experience.description")} />
       <Header />
       <main id="experience" className="w-full overflow-hidden">
         <div className="w-full h-full">

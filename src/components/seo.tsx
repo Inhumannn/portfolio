@@ -19,7 +19,7 @@ export function SEO({
     "Découvrez mon portfolio de développeur Full Stack.";
   const defaultImage = "/og-image.png";
 
-  const fullTitle = title === siteTitle ? siteTitle : `${siteTitle} | ${title}`;
+  const fullTitle = title === siteTitle ? siteTitle : `${siteTitle} - ${title}`;
 
   const absoluteUrl = url ? `${siteUrl}${url}` : siteUrl;
   const absoluteImage = image
