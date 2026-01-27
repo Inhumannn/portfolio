@@ -5,8 +5,8 @@ export function CvButton() {
   const { t } = useTranslation();
   return (
     <a
-      href="/CV_Thomas_PENA-BERMOND_Dev_Fullstack.pdf"
-      download="CV_Thomas_PENA-BERMOND_Dev_Fullstack.pdf"
+      href="/cv_thomas_pena-bermond_dwwm.pdf"
+      download="cv_thomas_pena-bermond_dwwm.pdf"
     >
       <Button
         variant="outline"
