@@ -7,7 +7,7 @@ export function CodeBlock() {
         <span className="json-key">"name"</span>:{" "}
         <span className="json-string">"Thomas PENA--BERMOND"</span>,{"\n  "}
         <span className="json-key">"role"</span>:{" "}
-        <span className="json-string">"Full Stack Developer"</span>,{"\n  "}
+        <span className="json-string">"Web & Mobile Developer"</span>,{"\n  "}
         <span className="json-key">"age"</span>:{" "}
         <span className="json-number">19</span>,{"\n  "}
         <span className="json-key">"Skills"</span>:{" "}
@@ -22,5 +22,3 @@ export function CodeBlock() {
     </pre>
   );
 }
-
-
