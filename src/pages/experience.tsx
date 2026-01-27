@@ -1,6 +1,7 @@
 import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { PageTransition } from "@/components/pageTransition";
 import { SEO } from "@/components/seo";
 import { TimeLine } from "@/components/timeLine";
 import { useTranslation } from "react-i18next";
@@ -9,7 +10,7 @@ export function Experience() {
   const { t } = useTranslation();
 
   return (
-    <>
+    <PageTransition>
       <div id="header-ancre"></div>
       <SEO
         title={t("page-experience.title")}
@@ -33,6 +34,6 @@ export function Experience() {
         </div>
       </main>
       <Footer />
-    </>
+    </PageTransition>
   );
 }

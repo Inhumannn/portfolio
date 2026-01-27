@@ -3,6 +3,7 @@ import { CvButton } from "@/components/cvButton";
 import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { PageTransition } from "@/components/pageTransition";
 import { ProjectsCards } from "@/components/projectsCards";
 import { SchemaOrg } from "@/components/schemaOrg";
 import { SEO } from "@/components/seo";
@@ -15,7 +16,7 @@ import { Link } from "react-router-dom";
 export function Home() {
   const { t } = useTranslation();
   return (
-    <>
+    <PageTransition>
       <SEO
         title={t("page-home.title")}
         description={t("page-home.title-description")}
@@ -91,6 +92,6 @@ export function Home() {
         </section>
       </main>
       <Footer />
-    </>
+    </PageTransition>
   );
 }

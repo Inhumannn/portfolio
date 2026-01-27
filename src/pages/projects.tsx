@@ -1,6 +1,7 @@
 import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { PageTransition } from "@/components/pageTransition";
 import { ProjectsCards } from "@/components/projectsCards";
 import { SEO } from "@/components/seo";
 import { useTranslation } from "react-i18next";
@@ -9,7 +10,7 @@ export function Projects() {
   const { t } = useTranslation();
 
   return (
-    <>
+    <PageTransition>
       <SEO
         title={t("app.projects")}
         description={t("page-project.description")}
@@ -34,6 +35,6 @@ export function Projects() {
         </div>
       </main>
       <Footer />
-    </>
+    </PageTransition>
   );
 }

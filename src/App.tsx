@@ -1,8 +1,9 @@
 import { Analytics } from "@/components/analytics";
 import { slugify } from "@/utils/slugify";
+import { AnimatePresence } from "framer-motion";
 import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
 import { useTranslation } from "react-i18next";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import { Toaster } from "sonner";
 import { ThemeProvider } from "./components/themProvider";
 import "./i18n";
@@ -18,6 +19,7 @@ export function App() {
   const recaptchaKey = import.meta.env.VITE_RECAPTCHA_SITE_KEY || "";
   const { i18n } = useTranslation();
   const languages = ["en", "fr"];
+  const location = useLocation();
 
   const getSlug = (lang: string, key: string) => {
     const resource = i18n.getResourceBundle(lang, "translation");
@@ -29,41 +31,43 @@ export function App() {
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
         <Toaster position="bottom-right" />
         <Analytics />
-        <Routes>
-          <Route path="/" element={<Home />} />
+        <AnimatePresence mode="wait">
+          <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<Home />} />
 
-          {languages.map((lang) => (
-            <>
-              <Route
-                path={`/${getSlug(lang, "about")}`}
-                element={<About />}
-                key={`${lang}-about`}
-              />
-              <Route
-                path={`/${getSlug(lang, "experience")}`}
-                element={<Experience />}
-                key={`${lang}-exp`}
-              />
-              <Route
-                path={`/${getSlug(lang, "projects")}`}
-                element={<Projects />}
-                key={`${lang}-proj`}
-              />
-              <Route
-                path={`/${getSlug(lang, "contacts")}`}
-                element={<Contact />}
-                key={`${lang}-contact`}
-              />
-              <Route
-                path={`/${getSlug(lang, "project")}/:id`}
-                element={<ProjectDetails />}
-                key={`${lang}-details`}
-              />
-            </>
-          ))}
-          <Route path="/404" element={<Custom404 />} />
-          <Route path="*" element={<Custom404 />} />
-        </Routes>
+            {languages.map((lang) => (
+              <>
+                <Route
+                  path={`/${getSlug(lang, "about")}`}
+                  element={<About />}
+                  key={`${lang}-about`}
+                />
+                <Route
+                  path={`/${getSlug(lang, "experience")}`}
+                  element={<Experience />}
+                  key={`${lang}-exp`}
+                />
+                <Route
+                  path={`/${getSlug(lang, "projects")}`}
+                  element={<Projects />}
+                  key={`${lang}-proj`}
+                />
+                <Route
+                  path={`/${getSlug(lang, "contacts")}`}
+                  element={<Contact />}
+                  key={`${lang}-contact`}
+                />
+                <Route
+                  path={`/${getSlug(lang, "project")}/:id`}
+                  element={<ProjectDetails />}
+                  key={`${lang}-details`}
+                />
+              </>
+            ))}
+            <Route path="/404" element={<Custom404 />} />
+            <Route path="*" element={<Custom404 />} />
+          </Routes>
+        </AnimatePresence>
       </ThemeProvider>
     </GoogleReCaptchaProvider>
   );

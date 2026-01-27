@@ -2,6 +2,7 @@ import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { ContactForm } from "@/components/form";
 import { Header } from "@/components/header";
+import { PageTransition } from "@/components/pageTransition";
 import { SEO } from "@/components/seo";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { useTranslation } from "react-i18next";
@@ -9,7 +10,7 @@ import { useTranslation } from "react-i18next";
 export function Contact() {
   const { t } = useTranslation();
   return (
-    <>
+    <PageTransition>
       <SEO
         title={t("app.contacts")}
         description={t("page-home.title4-description")}
@@ -98,6 +99,6 @@ export function Contact() {
         </a>
         de Google s'appliquent.
       </div>
-    </>
+    </PageTransition>
   );
 }

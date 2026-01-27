@@ -1,6 +1,7 @@
 import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { PageTransition } from "@/components/pageTransition";
 import { SchemaOrg } from "@/components/schemaOrg";
 import { SEO } from "@/components/seo";
 import { Badge } from "@/components/ui/badge";
@@ -31,7 +32,7 @@ export function ProjectDetails() {
   }
 
   return (
-    <>
+    <PageTransition>
       <SEO
         title={project.title}
         description={project.description}
@@ -118,6 +119,6 @@ export function ProjectDetails() {
         </section>
       </main>
       <Footer />
-    </>
+    </PageTransition>
   );
 }

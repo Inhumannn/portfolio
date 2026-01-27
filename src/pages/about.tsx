@@ -1,6 +1,7 @@
 import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { PageTransition } from "@/components/pageTransition";
 import { SEO } from "@/components/seo";
 import { Github, Linkedin, School } from "lucide-react";
 import { useTranslation } from "react-i18next";
@@ -9,7 +10,7 @@ export function About() {
   const { t } = useTranslation();
 
   return (
-    <>
+    <PageTransition>
       <SEO title={t("app.about")} description={t("page-about.description1")} />
       <div id="header-ancre"></div>
       <Header />
@@ -58,6 +59,6 @@ export function About() {
         </div>
       </main>
       <Footer />
-    </>
+    </PageTransition>
   );
 }
