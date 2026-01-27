@@ -1,4 +1,4 @@
-import { CodeBlock } from "@/components/codeblock";
+import { CodeBlock } from "@/components/codeBlock";
 import { CvButton } from "@/components/cvButton";
 import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
