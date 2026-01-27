@@ -59,7 +59,7 @@ export function App() {
               />
             </>
           ))}
-
+          <Route path="/404" element={<Custom404 />} />
           <Route path="*" element={<Custom404 />} />
         </Routes>
       </ThemeProvider>

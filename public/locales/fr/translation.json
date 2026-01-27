@@ -84,7 +84,7 @@
       "id": "projet-fullstack",
       "image": "/img/project3.webp",
       "title": "Projet Fullstack",
-      "description": "Application complète avec Backend.",
+      "description": "Application complète.",
       "skills": ["Node.js", "MongoDB"],
       "github": "https://github.com/Inhumannn/Project-Home",
       "link": "https://project-home-brown.vercel.app/"

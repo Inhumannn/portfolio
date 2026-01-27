@@ -6,6 +6,7 @@ import { Header } from "@/components/header";
 import { ProjectsCards } from "@/components/projectsCards";
 import { SkillTech } from "@/components/skillTech";
 import { Button } from "@/components/ui/button";
+import { slugify } from "@/utils/slugify";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
@@ -29,7 +30,9 @@ export function Home() {
               <p>{t("page-home.title-description")}</p>
               <div>
                 <Button asChild variant="default">
-                  <Link to="/about">{t("page-home.aboutme")}</Link>
+                  <Link to={`/${slugify(t("app.about"))}`}>
+                    {t("page-home.aboutme")}
+                  </Link>
                 </Button>
                 <CvButton />
               </div>
@@ -51,7 +54,9 @@ export function Home() {
           </div>
           <div>
             <Button asChild>
-              <Link to="/project">{t("page-home.seemore")}</Link>
+              <Link to={`/${slugify(t("app.projects"))}`}>
+                {t("page-home.seemore")}
+              </Link>
             </Button>
           </div>
         </section>

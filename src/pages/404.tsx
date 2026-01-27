@@ -8,7 +8,6 @@ export function Custom404() {
 
   return (
     <main id="notfound">
-      {/* Conteneur principal avec position relative */}
       <div
         style={{
           position: "relative",
@@ -17,7 +16,6 @@ export function Custom404() {
           overflow: "hidden",
         }}
       >
-        {/* Arrière-plan animé */}
         <div
           style={{
             position: "absolute",
@@ -41,7 +39,6 @@ export function Custom404() {
           />
         </div>
 
-        {/* Contenu 404 */}
         <section style={{ position: "relative", zIndex: 1 }}>
           <div className="notfound-container">
             <h1>
