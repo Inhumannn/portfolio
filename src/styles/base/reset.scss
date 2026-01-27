@@ -14,18 +14,19 @@ body {
 h1,
 h2,
 h3 {
+  font-family: $font-logo;
   font-weight: $fw-title;
 }
+#title-home {
+  font-size: $fz-title !important;
+}
 h1 {
-  font-family: $font-logo;
-  font-size: $fz-title;
+  font-size: $fz-title1;
 }
 h2 {
-  font-family: $font-title;
   font-size: $fz-title2;
 }
 h3 {
-  font-family: $font-title;
   font-size: $fz-title3;
 }
 p,

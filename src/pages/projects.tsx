@@ -24,7 +24,7 @@ export function Projects() {
           </div>
           <section className="relative z-10">
             <div>
-              <h2>{t("page-project.title")}</h2>
+              <h1>{t("page-project.title")}</h1>
               <p>{t("page-project.description")}</p>
             </div>
             <div>

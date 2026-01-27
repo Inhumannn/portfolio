@@ -11,7 +11,10 @@ export function Experience() {
   return (
     <>
       <div id="header-ancre"></div>
-      <SEO title={t("page-experience.title")} description={t("page-experience.description")} />
+      <SEO
+        title={t("page-experience.title")}
+        description={t("page-experience.description")}
+      />
       <Header />
       <main id="experience" className="w-full overflow-hidden">
         <div className="w-full h-full">
@@ -20,7 +23,7 @@ export function Experience() {
           </div>
           <section className="z-10 about">
             <div>
-              <h2>{t("page-experience.title")}</h2>
+              <h1>{t("page-experience.title")}</h1>
               <p>{t("page-experience.description")}</p>
             </div>
             <div className="timeline">

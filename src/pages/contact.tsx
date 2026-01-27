@@ -23,7 +23,7 @@ export function Contact() {
           </div>
           <section className="contact">
             <div>
-              <h2>{t("page-home.title4")}</h2>
+              <h1>{t("page-home.title4")}</h1>
               <p style={{ whiteSpace: "pre-line" }}>
                 {t("page-home.title4-description")}
               </p>

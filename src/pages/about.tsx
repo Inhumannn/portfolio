@@ -20,7 +20,7 @@ export function About() {
           </div>
           <section className="z-10">
             <div>
-              <h2>{t("page-about.about")}</h2>
+              <h1>{t("page-about.about")}</h1>
               <p>{t("page-about.description1")}</p>
               <p>{t("page-about.description2")}</p>
               <p>{t("page-about.description3")}</p>

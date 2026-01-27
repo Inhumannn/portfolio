@@ -1,6 +1,7 @@
 import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import { SchemaOrg } from "@/components/schemaOrg";
 import { SEO } from "@/components/seo";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -36,6 +37,20 @@ export function ProjectDetails() {
         description={project.description}
         image={project.image}
         url={`/project/${project.id}`}
+      />
+      <SchemaOrg
+        schema={{
+          "@type": "SoftwareApplication",
+          name: project.title,
+          description: project.description,
+          applicationCategory: "WebApplication",
+          operatingSystem: "Web",
+          offers: {
+            "@type": "Offer",
+            price: "0",
+            priceCurrency: "EUR",
+          },
+        }}
       />
       <div id="header-ancre"></div>
       <Header />

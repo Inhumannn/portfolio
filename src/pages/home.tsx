@@ -4,6 +4,7 @@ import DarkVeil from "@/components/darkVeil";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { ProjectsCards } from "@/components/projectsCards";
+import { SchemaOrg } from "@/components/schemaOrg";
 import { SEO } from "@/components/seo";
 import { SkillTech } from "@/components/skillTech";
 import { Button } from "@/components/ui/button";
@@ -19,6 +20,18 @@ export function Home() {
         title={t("page-home.title")}
         description={t("page-home.title-description")}
       />
+      <SchemaOrg
+        schema={{
+          "@type": "Person",
+          name: "Thomas Pena-Bermond",
+          jobTitle: "Développeur Full Stack",
+          url: "https://thmsfolio.vercel.app",
+          sameAs: [
+            "https://github.com/Inhumannn",
+            "https://www.linkedin.com/in/thomas-pena-bermond",
+          ],
+        }}
+      />
       <div id="header-ancre"></div>
       <Header />
       <main id="home">
@@ -28,7 +41,7 @@ export function Home() {
           </div>
           <section className="about z-10">
             <div>
-              <h1>
+              <h1 id="title-home">
                 {t("page-home.title11")}
                 <span>{t("page-home.title12")}</span>
               </h1>
