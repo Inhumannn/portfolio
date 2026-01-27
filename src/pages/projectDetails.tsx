@@ -3,9 +3,9 @@ import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { Link, Navigate, useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 
 type Project = {
   id: string;
