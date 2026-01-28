@@ -6,6 +6,7 @@ import { SchemaOrg } from "@/components/schemaOrg";
 import { SEO } from "@/components/seo";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { slugify } from "@/utils/slugify";
 import { ArrowLeft, ExternalLink, Github } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Link, Navigate, useParams } from "react-router-dom";
@@ -63,9 +64,12 @@ export function ProjectDetails() {
         <section className="detail-container">
           <div className="back-btn">
             <Button asChild variant="ghost">
-              <Link to="/projects" className="flex items-center gap-2">
+              <Link
+                to={`/${slugify(t("app.projects"))}`}
+                className="flex items-center gap-2"
+              >
                 <ArrowLeft size={16} />
-                {t("page-project.title") || "Retour"}
+                {t("page-project.title")}
               </Link>
             </Button>
           </div>

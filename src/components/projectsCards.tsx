@@ -22,7 +22,7 @@ export function ProjectsCards({ limit }: ProjectsCardsProps) {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const projects = t("project", { returnObjects: true }) as Project[];
-  const displayProjects = limit ? projects.slice(-limit) : projects;
+  const displayProjects = limit ? projects.slice(0, limit) : projects;
 
   return (
     <>

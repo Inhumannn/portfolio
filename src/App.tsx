@@ -26,13 +26,33 @@ export function App() {
     return resource?.app?.[key] ? slugify(resource.app[key]) : "";
   };
 
+  const getPageKey = (pathname: string) => {
+    if (pathname === "/" || pathname === "/en") return "home";
+    if (pathname === "/404") return "404";
+
+    const keys = ["about", "experience", "projects", "contacts", "project"];
+
+    for (const key of keys) {
+      for (const lang of languages) {
+        const slug = getSlug(lang, key);
+        if (pathname.includes(`/${slug}`)) {
+          if (key === "project") {
+            return pathname;
+          }
+          return key;
+        }
+      }
+    }
+    return pathname;
+  };
+
   return (
     <GoogleReCaptchaProvider reCaptchaKey={recaptchaKey}>
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
         <Toaster position="bottom-right" />
         <Analytics />
         <AnimatePresence mode="wait">
-          <Routes location={location} key={location.pathname}>
+          <Routes location={location} key={getPageKey(location.pathname)}>
             <Route path="/" element={<Home />} />
 
             {languages.map((lang) => (

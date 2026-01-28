@@ -65,31 +65,40 @@
   },
   "project": [
     {
-      "id": "projet-accueil",
-      "image": "/img/project1.webp",
-      "title": "Projet Accueil",
-      "description": "Une collection de pages d'accueil.",
+      "id": "la-classe-numerique",
+      "image": "/img/project/la-classe-numerique.webp",
+      "title": "La Classe Numérique",
+      "description": "Plateforme éducative DWWM.",
       "skills": ["HTML", "CSS"],
-      "github": "https://github.com/Inhumannn/Project-Home",
-      "link": "https://project-home-brown.vercel.app/"
+      "github": "https://github.com/Inhumannn/la-classe-numerique",
+      "link": "https://la-classe-numerique.vercel.app/"
     },
     {
-      "id": "projet-react",
-      "image": "/img/project2.webp",
-      "title": "Projet React",
-      "description": "Une application React dynamique.",
-      "skills": ["React", "Tailwind"],
-      "github": "https://github.com/Inhumannn/Project-Home",
-      "link": "https://project-home-brown.vercel.app/"
-    },
-    {
-      "id": "projet-fullstack",
-      "image": "/img/project3.webp",
-      "title": "Projet Fullstack",
-      "description": "Application complète.",
+      "id": "neurona",
+      "image": "/img/project/neurona.webp",
+      "title": "Neurona",
+      "description": "Doc, Communauté & Veille Dev.",
       "skills": ["Node.js", "MongoDB"],
-      "github": "https://github.com/Inhumannn/Project-Home",
-      "link": "https://project-home-brown.vercel.app/"
+      "github": "https://github.com/Inhumannn/neurona",
+      "link": "https://neurona-xi.vercel.app/"
+    },
+    {
+      "id": "thmsfolio",
+      "image": "/img/project/thmsfolio.webp",
+      "title": "Mon Portfolio",
+      "description": "Portfolio interactif React.",
+      "skills": ["React", "SCSS", "Tailwind", "TypeScript"],
+      "github": "https://github.com/Inhumannn/thmsfolio",
+      "link": "https://thmsfolio.vercel.app/"
+    },
+    {
+      "id": "zero-to-hero-portfolio",
+      "image": "/img/project/zero-to-hero.webp",
+      "title": "Portfolio Zero To Hero",
+      "description": "Défi portfolio Zero to Hero.",
+      "skills": ["React", "Tailwind"],
+      "github": "https://github.com/Inhumannn/zero-to-hero-portfolio",
+      "link": "https://mekidiche-idris-portfolio.com/"
     }
   ],
   "skills": [
