@@ -94,7 +94,7 @@
   main .project > div:nth-child(2) {
     grid-template-columns: repeat(1, 1fr) !important;
   }
-  #root > main > section.project > div:nth-child(2) article > img {
+  #home > section.project > div:nth-child(2) article > img {
     height: 320px;
   }
   main .skill > div:nth-child(2) {
@@ -112,10 +112,10 @@
     display: block;
     padding-left: 0px;
   }
-  #root > main > section.project > div:nth-child(2) article > img {
+  #home > section.project > div:nth-child(2) article > img {
     height: 120px;
   }
-  #root > main > section.skill > div:nth-child(2) > article > div {
+  #home > section.skill > div:nth-child(2) > article > div {
     grid-template-columns: repeat(2, 1fr) !important;
   }
   #home > section.skill > div:nth-child(2) > article:nth-child(3) {
@@ -134,8 +134,11 @@
   br {
     display: none;
   }
+  #title-home > span {
+    display: contents !important;
+  }
 }
-@media screen and (max-width: 357px) {
+@media screen and (max-width: 320px) {
   #home > div > section > div:nth-child(1) > div {
     flex-direction: column;
   }

@@ -1,4 +1,11 @@
 .json-block {
+  width: 100%;
+  max-width: 509px;
+  max-height: 280px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  margin: auto;
   background-color: #14171ebd;
   color: #abb2bf;
   padding: 1rem;
@@ -21,7 +28,7 @@
   color: #b5cea8;
 }
 
-.json-null {
+.json-boolean {
   color: #569cd6;
 }
 

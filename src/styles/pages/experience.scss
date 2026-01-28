@@ -1,11 +1,10 @@
 @use "../base/variables" as *;
 #experience {
-  padding-top: 75px;
   min-height: calc(100vh - 60px - 50px);
   section {
     max-width: 1680px;
     margin: auto;
-    padding: $space-xs;
+    padding: $space-lg;
     > div:first-child {
       text-align: center;
     }
@@ -41,15 +40,15 @@
         transform: translateX(-50%);
       }
       > div:nth-child(2) > div > div.timeline-date {
-        top: 29%;
+        top: 27%;
       }
 
       > div:nth-child(3) > div > div.timeline-date {
-        top: 55%;
+        top: 52%;
       }
 
       > div:nth-child(4) > div > div.timeline-date {
-        top: 80%;
+        top: 77%;
       }
       .timeline-date {
         background-color: #222222fa;
@@ -115,12 +114,15 @@
       top: 85px !important;
     }
     > div:nth-child(2) > div > div.timeline-date {
+      width: 53%;
       top: 27% !important;
     }
     > div:nth-child(3) > div > div.timeline-date {
+      width: 52%;
       top: 54% !important;
     }
     > div:nth-child(4) > div > div.timeline-date {
+      width: 53%;
       top: 79% !important;
     }
   }

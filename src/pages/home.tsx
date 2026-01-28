@@ -44,7 +44,7 @@ export function Home() {
             <div>
               <h1 id="title-home">
                 {t("page-home.title11")}
-                <span>{t("page-home.title12")}</span>
+                <span> {t("page-home.title12")}</span>
               </h1>
               <p>{t("page-home.title-description")}</p>
               <div>
