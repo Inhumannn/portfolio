@@ -48,7 +48,7 @@
     "about": "À propos de moi",
     "description1": "Admis en Bachelor 3 Informatique au sein d'Ynov, je forge mon expertise avec l'objectif de valider un titre d'Expert (Bac+5). Passionné par l'écosystème Fullstack, je combine aujourd'hui les fondamentaux de mon titre professionnel DWWM avec une vision moderne et innovante du développement web.",
     "description2": "Spécialisé dans l'écosystème React, TypeScript et Node.js, je maîtrise l'intégralité du cycle de vie d'une application. Mon expérience chez StoryCom m'a permis de piloter des projets de A à Z : de la conception UI/UX à l'architecture d'API REST sécurisées, incluant la gestion de bases de données et le déploiement sur des environnements Cloud (Vercel, Render), le tout orchestré par des méthodologies Agiles rigoureuses.",
-    "description3": "Actuellement à la recherche d'une alternance pour 2026/2027 sur un rythme de 1 semaine en formation et 3 semaines en entreprise, je suis prêt à m'investir sur le long terme. Mon autonomie, ma réactivité et ma soif de défis sont mes meilleurs atouts pour contribuer activement à la réussite de vos projets numériques."
+    "description3": "Actuellement à la recherche d'une alternance pour 2026/2027 sur un rythme de 1 semaine en formation et 2 semaines en entreprise, je suis prêt à m'investir sur le long terme. Mon autonomie, ma réactivité et ma soif de défis sont mes meilleurs atouts pour contribuer activement à la réussite de vos projets numériques."
   },
   "notfound": {
     "404": "Page non trouvée",
@@ -142,7 +142,7 @@
       "description": "Admis en formation supérieur, je recherche une alternance pour consolider mes acquis et me spécialiser. Passionné et opérationnel, je souhaite m'investir dans des projets concrets.",
       "tags": ["Contrat d'Apprentissage", "Full Stack", "Disponible"],
       "achievements": [
-        "Rythme : 1 semaine en formation / 3 semaines en entreprise",
+        "Rythme : 1 semaine en formation /emaines en entreprise",
         "Disponibilité : septembre 2026",
         "Objectif : Mettre à profit mes compétences au sein d'une entreprise"
       ]
