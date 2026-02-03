@@ -11,7 +11,7 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     > div:nth-child(1) {
-      margin-right: 20%;
+      margin-right: 7%;
       h1 {
         line-height: 1;
         margin-bottom: 12px;
@@ -26,6 +26,10 @@
       div {
         display: flex;
         gap: 20px;
+        a,
+        button {
+          font-size: 1rem;
+        }
       }
     }
   }
