@@ -71,7 +71,10 @@
       "description": "Plateforme éducative DWWM.",
       "skills": ["HTML", "CSS"],
       "github": "https://github.com/Inhumannn/la-classe-numerique",
-      "link": "https://la-classe-numerique.vercel.app/"
+      "link": "https://la-classe-numerique.vercel.app/",
+      "objective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "realization": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "result": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     {
       "id": "neurona",
@@ -80,7 +83,10 @@
       "description": "Doc, Communauté & Veille Dev.",
       "skills": ["Node.js", "MongoDB"],
       "github": "https://github.com/Inhumannn/neurona",
-      "link": "https://neurona-xi.vercel.app/"
+      "link": "https://neurona-xi.vercel.app/",
+      "objective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "realization": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "result": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     {
       "id": "thmsfolio",
@@ -89,7 +95,10 @@
       "description": "Portfolio interactif React.",
       "skills": ["React", "SCSS", "Tailwind", "TypeScript"],
       "github": "https://github.com/Inhumannn/thmsfolio",
-      "link": "https://thmsfolio.vercel.app/"
+      "link": "https://thmsfolio.vercel.app/",
+      "objective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "realization": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "result": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
     {
       "id": "zero-to-hero-portfolio",
@@ -98,7 +107,10 @@
       "description": "Défi portfolio Zero to Hero.",
       "skills": ["React", "Tailwind"],
       "github": "https://github.com/Inhumannn/zero-to-hero-portfolio",
-      "link": "https://mekidiche-idris-portfolio.com/"
+      "link": "https://mekidiche-idris-portfolio.com/",
+      "objective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "realization": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "result": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     }
   ],
   "skills": [

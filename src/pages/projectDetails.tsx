@@ -19,6 +19,9 @@ type Project = {
   link: string;
   github: string;
   image: string;
+  objective: string;
+  realization: string;
+  result: string;
 };
 
 export function ProjectDetails() {
@@ -118,6 +121,29 @@ export function ProjectDetails() {
                   </a>
                 </Button>
               </div>
+            </div>
+          </div>
+
+          <div className="space-y-8 mt-16 mb-8">
+            <div className="space-y-2">
+              <h3 className="text-xl font-semibold text-primary">Objectif</h3>
+              <p className="description text-muted-foreground">
+                {project.objective}
+              </p>
+            </div>
+            <div className="space-y-2">
+              <h3 className="text-xl font-semibold text-primary">
+                Réalisation
+              </h3>
+              <p className="description text-muted-foreground">
+                {project.realization}
+              </p>
+            </div>
+            <div className="space-y-2">
+              <h3 className="text-xl font-semibold text-primary">Résultat</h3>
+              <p className="description text-muted-foreground">
+                {project.result}
+              </p>
             </div>
           </div>
         </section>
