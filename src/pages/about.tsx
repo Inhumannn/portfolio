@@ -53,7 +53,7 @@ export function About() {
               </div>
             </div>
             <div>
-              <img src="/img/moi.webp" alt="Inhuman" />
+              <img src="/img/profile-picture.png" alt="Thomas Pena-Bermond" />
             </div>
           </section>
         </div>
