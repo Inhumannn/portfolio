@@ -13,10 +13,10 @@ export function SEO({
   url,
   noIndex = false,
 }: SEOProps) {
-  const siteTitle = "thmsfolio";
+  const siteTitle = "Thomas PENA BERMOND";
   const siteUrl = "https://thmsfolio.vercel.app";
   const defaultDescription =
-    "Découvrez mon portfolio de développeur Full Stack.";
+    "Portfolio de Thomas Pena Bermond, Développeur Web et Web Mobile. Découvrez mes projets, mon parcours (Bachelor 3 Informatique) et mes compétences (React, Node.js).";
   const defaultImage = "/og-image.png";
 
   const fullTitle = title === siteTitle ? siteTitle : `${siteTitle} - ${title}`;

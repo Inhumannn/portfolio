@@ -18,7 +18,7 @@
     "scroll-top": "Scroll to top"
   },
   "page-home": {
-    "title": "Home",
+    "title": "Web and Mobile Developer | Bachelor 3 Computer Science",
     "title11": "Developer",
     "title12": "Mobile & Web",
     "title-description": "Crafting digital experiences with clenan code and innovative solutions. Specialised in modern web technologies ans scalable erchitectures.",
@@ -72,9 +72,9 @@
       "skills": ["HTML", "CSS"],
       "github": "https://github.com/Inhumannn/la-classe-numerique",
       "link": "https://la-classe-numerique.vercel.app/",
-      "objective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "realization": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "result": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      "objective": "Build a rigorous educational platform in pure HTML5 and CSS3, respecting W3C accessibility standards.",
+      "realization": "Full 'responsive first' integration via CSS Grid and Flexbox. CSS architecture designed for maintainability.",
+      "result": "A 100% responsive platform with excellent Lighthouse scores, demonstrating a fundamental mastery of semantic web."
     },
     {
       "id": "neurona",
@@ -84,9 +84,9 @@
       "skills": ["Node.js", "MongoDB"],
       "github": "https://github.com/Inhumannn/neurona",
       "link": "https://neurona-xi.vercel.app/",
-      "objective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "realization": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "result": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      "objective": "Design the complete backend for a collaborative tech watch and documentation platform for developers.",
+      "realization": "Creation of a RESTful API with Node.js/Express, NoSQL database modeling via MongoDB (Mongoose), and secure JWT authentication.",
+      "result": "A scalable and secure backend capable of handling complex queries, with route protection and data encryption."
     },
     {
       "id": "thmsfolio",
@@ -96,9 +96,9 @@
       "skills": ["React", "SCSS", "Tailwind", "TypeScript"],
       "github": "https://github.com/Inhumannn/thmsfolio",
       "link": "https://thmsfolio.vercel.app/",
-      "objective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "realization": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "result": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      "objective": "Develop a high-performance web application (SPA) to serve as a technical resume, highlighting fluid interfaces.",
+      "realization": "Developed with React 19 and Vite. Strict TypeScript integration for code robustness, coupled with TailwindCSS and SCSS for the design system.",
+      "result": "An SEO-optimized application hosted on Vercel with a CI/CD pipeline, offering an excellent user experience and rich micro-animations."
     },
     {
       "id": "zero-to-hero-portfolio",
@@ -108,9 +108,9 @@
       "skills": ["React", "Tailwind"],
       "github": "https://github.com/Inhumannn/zero-to-hero-portfolio",
       "link": "https://github.com/Inhumannn/zero-to-hero-portfolio",
-      "objective": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "realization": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "result": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      "objective": "Take on a demanding technical challenge requiring the rapid creation of a modular user interface.",
+      "realization": "Advanced use of the React ecosystem and the TailwindCSS utility framework to ensure extremely fast prototyping.",
+      "result": "An interface perfectly faithful to the mockups, with negligible load times and highly reusable components."
     }
   ],
   "skills": [
